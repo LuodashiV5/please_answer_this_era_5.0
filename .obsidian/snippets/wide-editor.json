@@ -1,0 +1,6 @@
+/* 拓宽所有 Markdown 预览和源码模式的编辑区域 */
+.markdown-source-view, .markdown-reading-view {
+    max-width: 1200px !important; /* 将 1200px 改为你想要的任何宽度 */
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

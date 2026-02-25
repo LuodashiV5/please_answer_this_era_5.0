@@ -1,0 +1,18 @@
+project/
+├── Product-Spec.md                      # 产品需求文档（自动生成）
+├── Product-Spec-CHANGELOG.md            # 变更记录（自动生成）
+├── UI-Prompts.md                        # 原型图提示词（自动生成）
+└── .claude/
+    ├── CLAUDE.md                        # 主控配置（必须创建）
+    └── skills/                          # 技能包（必须创建）
+        ├── product-spec-builder/        # 产品经理技能包
+        │   ├── SKILL.md
+        │   └── templates/
+        │       ├── product-spec-template.md
+        │       └── changelog-template.md
+        ├── ui-prompt-generator/         # UI 提示词设计师技能包
+        │   ├── SKILL.md
+        │   └── templates/
+        │       └── ui-prompt-template.md
+        └── dev-builder/                 # 全栈开发工程师技能包
+            └── SKILL.md

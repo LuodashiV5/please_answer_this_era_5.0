@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "3b5e8d0e51444e96",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7ed37299b865c4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97d811bf4186449d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "对象池模式：敢在单片机里用 malloc？你的系统可能活不过 49 天.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "对象池模式：敢在单片机里用 malloc？你的系统可能活不过 49 天"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ea372ca7f1c12ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ad03bd4ce28f248",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96c9950f61c38a4f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "880b7e8e4956740e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "323e7510e7449051",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 550.5
+  },
+  "right": {
+    "id": "82e1b43aba87cccb",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd6d83f4cac87a11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd192cedcc8a1721",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁 的反向链接列表"
+            }
+          },
+          {
+            "id": "81d00b130421b7b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁 的出链列表"
+            }
+          },
+          {
+            "id": "c28c713c34cf8aff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "da4edc14d30e39ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "cd0c104cd5ec76d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "97d811bf4186449d",
+  "lastOpenFiles": [
+    "告别臃肿的 ProcessData()：如何用责任链模式重构你的串口协议栈？已付费.md",
+    "告别耦合地狱：如何用发布-订阅模式重构你的嵌入式代码？已付费.md",
+    "别再问“怎么写 SKILL.md”了，直接抄生产级的Skills 库.md",
+    "别再纠结用 Skill 还是 Subagent 了，这一篇讲透 Claude Code 的「分身术」.md",
+    "Bug 修复（2处，极可能是 24h 卡死的根因）.md",
+    "The claude code tutorial level 2.md",
+    "C语言从句柄到对象.md",
+    "OpenClaw 装上手机替换80%手机APP.md",
+    "VxWorks风河新年分享.md",
+    "AI编程_产品经理开发技能3.0_skills/目录结构",
+    "AI编程_产品经理开发技能3.0_skills/project",
+    "AI编程_产品经理开发技能3.0_skills",
+    "教你从0开始使用Skill.md",
+    "Claude.md - Renesas RX651 嵌入式开发指南 V1.4.md",
+    "研发总监的残酷真相：你80%的忙碌，都不产生价值.md",
+    "Skills 合集.md",
+    "使用Claude Code的工具推荐.md",
+    "谈谈Agent Skills的底层原理.md",
+    "Claude Code必装神器：一键把CLAUDE.md做到95分.md",
+    "AI编程最佳配置，来自 Anthropic 黑客马拉松获胜者的 Claude Code 配置.md",
+    "AI编程效率提升：Claude团队内部技巧解析.md",
+    "AI Panel 插件---管理AI问题目录.md",
+    "这个CLAUDE.md文件，让普通程序员直接变身10x工程师.md",
+    "躺在床上开发不是梦！Claude Code远程控制功能彻底改变程序员日常.md",
+    "assets/Pasted image 20260225230857.png",
+    "Claude Code 最佳实践：50 个实用技巧.md",
+    "claude.md 大师课：从入门到精通.md",
+    "Cursor 的四大扩展机制到底怎么选？Rules、Skills、Subagents、MCP.md",
+    "一次掌握 18 个工具：Claude Code 内置工具全解析.md",
+    "Claude Code 效率翻倍指南.md",
+    "未命名.canvas",
+    "assets/那个块返回给用户.jpg",
+    "assets/这段代码的问题用一张图就能说明.jpg",
+    "assets/虽然都是 I2C.jpg",
+    "assets/画个图你就明白了.jpg",
+    "assets/用适配器模式后的架构.jpg",
+    "assets/电池寿命（SOH）的预测算法.webp",
+    "assets/洋葱代码.png",
+    "assets/微信图片_2026-02-22_170104_678.jpg",
+    "assets/命令模式的核心角色.png",
+    "assets",
+    "Agent Skills 终极指南：入门、精通、预测 (23_02_2026 12：19：40 am).html",
+    "#Claude Agent Skills：第一性原理深度解析 (23_02_2026 12：20：13 am).html",
+    "未命名 1.canvas",
+    "别再问“怎么写 SKILL.md”了，直接抄生产级的Skills 库.base",
+    "未命名 1.base",
+    "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.canvas"
+  ]
+}
