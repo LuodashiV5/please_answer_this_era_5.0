@@ -44,7 +44,7 @@ Skill 最大的价值在于**知识的资产化**：
 
 只需一行命令即可为你的 AI 智能体添加新能力：
 
-```bash
+```json
 npx skills add vercel-labs/agent-skills
 ```
 

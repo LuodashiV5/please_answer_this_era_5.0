@@ -1,4 +1,7 @@
 {
   "readableLineLength": false,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "promptDelete": true
 }
