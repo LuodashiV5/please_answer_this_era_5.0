@@ -1,4 +1,8 @@
 
+>
+>- 用途:这份周报生成 Skill 的逻辑非常严谨，尤其是**别名归一化**和基于 **Git/JIRA 状态的逻辑映射**，极大地降低了人工筛选的成本
+>
+---
 # 🤖 AI Agent Skill: Weekly Report Transformer (周报自动化提炼专家)
 
 ## 📌 技能元数据 (Metadata)
@@ -10,7 +14,6 @@
     - 用户粘贴包含 Git Log 或 JIRA 导出文本的内容时触发。
         
 - **Version**: 3.0 (支持智能折叠与多别名匹配)
-- 用途:这份周报生成 Skill 的逻辑非常严谨，尤其是**别名归一化**和基于 **Git/JIRA 状态的逻辑映射**，极大地降低了人工筛选的成本
 ---
 
 ## ⚙️ 实体识别与归一化 (Entity Normalization)
@@ -51,20 +54,20 @@
 
 - **风险 & 阻塞项 (无时)**:
 ```Markdown
-    ### 风险 & 阻塞项
-    <details>
-    <summary>无（点击展开）</summary>
-    无
-    </details>
+### 风险 & 阻塞项
+<details>
+<summary>无（点击展开）</summary>
+无
+</details>
 ```
     
 - **需领导支持事项 (无时)**:
 ```Markdown
-    ### 需领导支持事项
-    <details>
-    <summary>无（点击展开）</summary>
-    无
-    </details>
+### 需领导支持事项
+<details>
+<summary>无（点击展开）</summary>
+无
+</details>
 ```
     
 - _注：若环境不支持 `<details>`，则降级为单行 `- 无`。_

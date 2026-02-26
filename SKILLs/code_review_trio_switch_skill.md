@@ -6,8 +6,8 @@
 - **Name**: `Code_Review_Trio_Switch`
 - **Description**: 基于 MISRA C:2025、CERT C 及日常工程实践的嵌入式 C 语言静态分析专家。支持三种独立模式切换，提供精准的逐行代码审计。
 - **Trigger**:
-- 用户指定模式：`MODE = [CERT_C_FATAL / MISRA_C_2025 / DAILY_ENGINEERING]`。
-- 用户输入 C 代码片段并请求 Review。
+	- 用户指定模式：`MODE = [CERT_C_FATAL / MISRA_C_2025 / DAILY_ENGINEERING]`。
+	- 用户输入 C 代码片段并请求 Review。
 - **Version**: 2025.1 (对齐 MISRA C:2025)
 ---
 
@@ -56,4 +56,4 @@
 
 **💡 优化建议：**
 针对 **MISRA C:2025**，我特别保留了你提到的 `R11.11`（指针不能隐式当布尔值）和 `R8.19`（extern 规范）等新规则，这些是 2025 版相对于 2012 版的重要升级点。
-这份标准化文档已经可以作为 **System Prompt** 直接喂给 Claude Code 或 Copilot。你需要我为你整理一个这三份 Skill（日报、会议、代码评审）的 **“高效开发者工具箱”** 索引吗？
+这份标准化文档已经可以作为 **System Prompt** 直接喂给 Claude Code 或 Copilot

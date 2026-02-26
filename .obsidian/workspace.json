@@ -13,15 +13,128 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SKILLs/code_review_trio_switch_skill.md",
+                "file": "SKILLs/confluence_jira_link_skill.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "code_review_trio_switch_skill"
+              "title": "confluence_jira_link_skill"
+            }
+          },
+          {
+            "id": "c16576316b36483b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILLs/weekly_report_transformer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "weekly_report_transformer"
+            }
+          },
+          {
+            "id": "becb13cf245f4d9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILLs/JQL_Query_Assistant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JQL_Query_Assistant"
+            }
+          },
+          {
+            "id": "0a041d37716ce2de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILLs/code_context_explainer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "code_context_explainer"
+            }
+          },
+          {
+            "id": "0749a8b59810f27a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILLs/Embedded_Skeleton_Architect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Embedded_Skeleton_Architect"
+            }
+          },
+          {
+            "id": "deaf0a47830056ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILLs/code_context_explainer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "code_context_explainer"
+            }
+          },
+          {
+            "id": "4bd4689fba7f9b6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILLs/Jira_Language_Translator.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Jira_Language_Translator"
+            }
+          },
+          {
+            "id": "a8f0acc8f2a89380",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Everything Claude Code全方位指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Everything Claude Code全方位指南"
+            }
+          },
+          {
+            "id": "939a5e0f7f663adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILLs/confluence_jira_link_skill.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "confluence_jira_link_skill"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -186,14 +299,23 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fac5c54baeb871fd",
+  "active": "939a5e0f7f663adb",
   "lastOpenFiles": [
-    "SKILLs/copilot_meeting_skill_v1.md",
-    "SKILLs/confluence_jira_link_skill.md",
+    "SKILLs/Story_Task_Architect.md",
+    "Everything Claude Code全方位指南.md",
+    "SKILLs/Refactoring_Advisor.md",
+    "SKILLs/Jira_Language_Translator.md",
+    "SKILLs/code_context_explainer.md",
     "SKILLs/code_review_trio_switch_skill.md",
-    "SKILLs/weekly_report_transformer.md",
-    "SKILLs/daily_report_skill.md",
+    "SKILLs/copilot_meeting_skill_v1.md",
+    "SKILLs/JQL_Query_Assistant.md",
+    "SKILLs/embedded_source_guard.skill.md",
+    "SKILLs/confluence_jira_link_skill.md",
     "SKILLs/copilot_meeting_skill_v2.md",
+    "SKILLs/Embedded_Skeleton_Architect.md",
+    "SKILLs/daily_report_skill.md",
+    "SKILLs/lab_log_analyzer.md",
+    "SKILLs/weekly_report_transformer.md",
     "Claude.md - Renesas RX651 嵌入式开发指南 V1.4.md",
     "非常好的Claude code经验总结.md",
     "谈谈Agent Skills的底层原理.md",
@@ -207,17 +329,8 @@
     "Agent skill指南.md",
     "SKILL_code_review_三模切换_MISRA_C2025.md",
     "Claude Code 安装.md",
-    "Claude Code CLI 命令速查表.md",
-    "claude.md 大师课：从入门到精通.md",
-    "普通人用好AI，就在这20件小事中.md",
-    "研发总监的残酷真相：你80%的忙碌，都不产生价值.md",
-    "Cursor 的四大扩展机制到底怎么选？Rules、Skills、Subagents、MCP.md",
     "未命名.canvas",
-    "HTML import/VSCode 里自动 Code Review 太方便了，被 github copilot AI 羞辱总比被领导羞辱好 (06_12_2025 10：45：38 am).md",
-    "Claude Agent Team模式新体验.md",
     "assets/a40e985a88d94ed7e9e81c43668e1703.jpg",
-    "Claude Code 官方最佳实践指南--自用版.md",
-    "HTML import/谁说单片机根本不能跑AI模型？我已在STM32F103上实测TinyML（建议关注＋收藏） (28_11_2025 9：47：21 pm).md",
     "HTML import",
     "assets/9cba1dc00f8a5e3aece8ff17b463f331.png",
     "AI编程_产品经理开发技能3.0_skills/目录结构",
