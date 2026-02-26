@@ -1,0 +1,15 @@
+[submodule "SKILLs/claude-skills"]
+	path = SKILLs/claude-skills
+	url = https://github.com/alirezarezvani/claude-skills.git
+[submodule "SKILLs/pm-skills"]
+	path = SKILLs/pm-skills
+	url = https://github.com/product-on-purpose/pm-skills.git
+[submodule "SKILLs/Product-Manager-Skills"]
+	path = SKILLs/Product-Manager-Skills
+	url = https://github.com/deanpeters/Product-Manager-Skills.git
+[submodule "SKILLs/product-manager-prompts"]
+	path = SKILLs/product-manager-prompts
+	url = https://github.com/deanpeters/product-manager-prompts.git
+[submodule "SKILLs/superpowers"]
+	path = SKILLs/superpowers
+	url = https://github.com/obra/superpowers.git
