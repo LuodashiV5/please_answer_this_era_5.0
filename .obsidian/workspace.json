@@ -4,137 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9dd76e95244b41a1",
+        "id": "d42e133496c8bf68",
         "type": "tabs",
         "children": [
           {
-            "id": "fac5c54baeb871fd",
+            "id": "490038ada6ec116a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SKILLs/confluence_jira_link_skill.md",
+                "file": "6 类岗位的必备 Skills 总结：用上的人正在甩开 90％ 的同行 (27_02_2026 1：10：21 am).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "confluence_jira_link_skill"
-            }
-          },
-          {
-            "id": "c16576316b36483b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SKILLs/weekly_report_transformer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "weekly_report_transformer"
-            }
-          },
-          {
-            "id": "becb13cf245f4d9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SKILLs/JQL_Query_Assistant.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JQL_Query_Assistant"
-            }
-          },
-          {
-            "id": "0a041d37716ce2de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SKILLs/code_context_explainer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "code_context_explainer"
-            }
-          },
-          {
-            "id": "0749a8b59810f27a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SKILLs/Embedded_Skeleton_Architect.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Embedded_Skeleton_Architect"
-            }
-          },
-          {
-            "id": "deaf0a47830056ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SKILLs/code_context_explainer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "code_context_explainer"
-            }
-          },
-          {
-            "id": "4bd4689fba7f9b6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SKILLs/Jira_Language_Translator.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Jira_Language_Translator"
-            }
-          },
-          {
-            "id": "a8f0acc8f2a89380",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything Claude Code全方位指南.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Everything Claude Code全方位指南"
-            }
-          },
-          {
-            "id": "939a5e0f7f663adb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SKILLs/confluence_jira_link_skill.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "confluence_jira_link_skill"
+              "title": "6 类岗位的必备 Skills 总结：用上的人正在甩开 90％ 的同行 (27_02_2026 1：10：21 am)"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -299,23 +186,28 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "939a5e0f7f663adb",
+  "active": "490038ada6ec116a",
   "lastOpenFiles": [
-    "SKILLs/Story_Task_Architect.md",
+    "6 类岗位的必备 Skills 总结：用上的人正在甩开 90％ 的同行 (27_02_2026 1：10：21 am).html",
+    "6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行.md",
+    "6 类岗位的必备 Skills 总结：用上的人正在甩开 90％ 的同行 (27_02_2026 1：10：21 am).md",
+    "Agent Skills 解析：机制、工具链与落地挑战.md",
+    "我分析了 1000 个 skills，这是最推荐的 30 个.md",
+    "SKILLs/confluence_jira_link_skill.md",
     "Everything Claude Code全方位指南.md",
-    "SKILLs/Refactoring_Advisor.md",
     "SKILLs/Jira_Language_Translator.md",
     "SKILLs/code_context_explainer.md",
+    "SKILLs/Embedded_Skeleton_Architect.md",
+    "SKILLs/JQL_Query_Assistant.md",
+    "SKILLs/weekly_report_transformer.md",
+    "SKILLs/Story_Task_Architect.md",
+    "SKILLs/Refactoring_Advisor.md",
     "SKILLs/code_review_trio_switch_skill.md",
     "SKILLs/copilot_meeting_skill_v1.md",
-    "SKILLs/JQL_Query_Assistant.md",
     "SKILLs/embedded_source_guard.skill.md",
-    "SKILLs/confluence_jira_link_skill.md",
     "SKILLs/copilot_meeting_skill_v2.md",
-    "SKILLs/Embedded_Skeleton_Architect.md",
     "SKILLs/daily_report_skill.md",
     "SKILLs/lab_log_analyzer.md",
-    "SKILLs/weekly_report_transformer.md",
     "Claude.md - Renesas RX651 嵌入式开发指南 V1.4.md",
     "非常好的Claude code经验总结.md",
     "谈谈Agent Skills的底层原理.md",
@@ -323,12 +215,7 @@
     "让 OpenClaw 更有趣，更新你的 soul.md",
     "未命名.base",
     "Skills 合集.md",
-    "2026-02-26.md",
     "SKILLs",
-    "Agent Skills 解析：机制、工具链与落地挑战.md",
-    "Agent skill指南.md",
-    "SKILL_code_review_三模切换_MISRA_C2025.md",
-    "Claude Code 安装.md",
     "未命名.canvas",
     "assets/a40e985a88d94ed7e9e81c43668e1703.jpg",
     "HTML import",

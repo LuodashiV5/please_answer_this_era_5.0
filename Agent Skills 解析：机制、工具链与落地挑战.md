@@ -46,11 +46,11 @@ npx skills add vercel-labs/agent-skills
 
 部分常用 Skill 已展现出实用价值，例如：
 
-- `create-pull-request`：基于分支差异自动生成 PR 标题与描述；
+- ==create-pull-request：基于分支差异自动生成 PR 标题与描述；
     
-- `frontend-code-review`：检查前端组件是否符合可访问性或性能规范；
+- ==frontend-code-review：检查前端组件是否符合可访问性或性能规范；
     
-- `bash-script-generator`：将自然语言指令转换为可执行 shell 脚本。
+- ==bash-script-generator：将自然语言指令转换为可执行 shell 脚本。
     
 
 这些能力在提升效率的同时，也依赖于 Skill 本身的可靠性与适配性。
@@ -77,8 +77,6 @@ trigger: 当用户提到“打招呼”或“您好”
     
 5. 输入“您好”，Copilot就会正确的返回："Hello from my custom skill!"。
     
-
-  
 
 ![Image](https://mmbiz.qpic.cn/mmbiz_png/q1Kia2s1pw9jcmdRGJ00L7kGm2RBfZW6nMXsM8tYfgUqBf2KPEaplOFqbLn9hClBQCJ7I04jEfremVricbFaDrrg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
 
