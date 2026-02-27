@@ -13,3 +13,6 @@
 [submodule "SKILLs/superpowers"]
 	path = SKILLs/superpowers
 	url = https://github.com/obra/superpowers.git
+[submodule "SKILLs/claude-code-skills"]
+	path = SKILLs/claude-code-skills
+	url = https://github.com/daymade/claude-code-skills.git
