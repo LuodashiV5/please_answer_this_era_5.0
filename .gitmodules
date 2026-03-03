@@ -1,3 +1,6 @@
+[submodule "SKILLs/anthropics-skills"]
+	path = SKILLs/skills
+	url = https://github.com/anthropics/skills.git
 [submodule "SKILLs/claude-skills"]
 	path = SKILLs/claude-skills
 	url = https://github.com/alirezarezvani/claude-skills.git
@@ -16,3 +19,6 @@
 [submodule "SKILLs/claude-code-skills"]
 	path = SKILLs/claude-code-skills
 	url = https://github.com/daymade/claude-code-skills.git
+[submodule "SKILLs/awesome-pm-skills"]
+	path = SKILLs/awesome-pm-skills
+	url = https://github.com/menkesu/awesome-pm-skills
