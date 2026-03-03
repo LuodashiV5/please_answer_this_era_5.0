@@ -1,0 +1,57 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Personal notes
+_NOTES/
+.obsidian
+.claude/*
+.claude/settings.local.json
+.claude/skills/
+.claude/commands/
+dist/
+
+# Agent working files
+# Planning persistence policy: docs/internal/planning-persistence-policy.md
+# Durable files are tracked; high-churn working logs and drafts are ignored.
+AGENTS/*/SESSION-LOG/
+AGENTS/*/TODO.md
+AGENTS/*/PLANNING/
+!AGENTS/*/CONTEXT.md
+!AGENTS/*/DECISIONS.md
+!AGENTS/DECISIONS.md
+.github/scripts/node_modules/
+
+# Local convenience
+.favorites.json

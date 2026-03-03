@@ -1,0 +1,78 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make build scripts executable
+        run: chmod +x scripts/build-release.sh scripts/sync-claude.sh
+
+      - name: Get version from tag
+        id: version
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
+      - name: Build release artifact
+        run: ./scripts/build-release.sh "$VERSION"
+
+      - name: Generate release notes
+        run: |
+          cat << 'EOF' > RELEASE_NOTES.md
+          ## What's Included
+
+          - **24 PM skills** (flat `skills/phase-skill/`)
+          - **Slash commands** (`/prd`, `/hypothesis`, `/kickoff`, etc.)
+          - **Workflow bundles** (Triple Diamond, Lean Startup, Feature Kickoff)
+          - **Claude/openskills discovery** via sync helper (`scripts/sync-claude.sh` / `.ps1`)
+          - **Docs:** README, QUICKSTART, AGENTS, reference guides
+
+          ## Download
+
+          **`pm-skills-v${{ steps.version.outputs.version }}.zip`** — Complete package for all platforms
+
+          ## Installation
+
+          ### Claude Code / openskills
+          1. Download `pm-skills-v${{ steps.version.outputs.version }}.zip`
+          2. Extract, then run:
+             - Bash: `./scripts/sync-claude.sh`
+             - PowerShell: `./scripts/sync-claude.ps1`
+          3. Claude Code / openskills will discover commands in `.claude/commands/` and skills in `.claude/skills/`.
+
+          ### Other editors/agents
+          - Use `skills/` and `commands/` directly from the extracted ZIP.
+
+          ## Quick Usage
+
+          ```
+          /prd "Your feature description"
+          /hypothesis "Your assumption to test"
+          /kickoff "Feature name"
+          ```
+
+          See `QUICKSTART.md` in the archive for full instructions.
+          EOF
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/pm-skills-v${{ steps.version.outputs.version }}.zip
+            dist/pm-skills-v${{ steps.version.outputs.version }}.zip.sha256
+            dist/manifest.txt
+          body_path: RELEASE_NOTES.md
+          draft: false
+          prerelease: false
