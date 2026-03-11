@@ -22,3 +22,9 @@
 [submodule "SKILLs/awesome-pm-skills"]
 	path = SKILLs/awesome-pm-skills
 	url = https://github.com/menkesu/awesome-pm-skills
+[submodule "everything-claude-code"]
+	path = everything-claude-code
+	url = https://github.com/affaan-m/everything-claude-code.git
+[submodule "awesome-openclaw-usecases"]
+	path = awesome-openclaw-usecases
+	url = https://github.com/hesamsheikh/awesome-openclaw-usecases.git
