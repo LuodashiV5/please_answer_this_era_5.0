@@ -503,3 +503,9 @@ Claude Code、Cursor这些AI编程工具首当其冲。
 
 
 我的小破站（含我开源的项目）：**https://www.aiking.dev/**
+
+
+关联
+
+-[[ OPUS 的训练模型量有多大，为什么他这么准 ]]
+-[[用Claude Code做RAG的合规性]]
