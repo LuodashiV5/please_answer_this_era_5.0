@@ -210,4 +210,7 @@ makeitdown 的价值是：
  
 [[快速原型类 Dify 或FastGPT 初探]] 
 
-[[Claude 1M正式上线，价格一分不涨，搭了半年RAG的人崩了。。。]]
+-[[ Claude Code 支持1M上下文 ]]
+
+
+-[[Copilot 的 Notebooks 怎么使用的]]

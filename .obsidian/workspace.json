@@ -4,57 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "46d67a972db84791",
+        "id": "e1de734289de6bc1",
         "type": "tabs",
-        "dimension": 49.00960384153662,
+        "dimension": 14.164305949008499,
         "children": [
           {
-            "id": "953cb07019f513a8",
+            "id": "787a87b17bc2c18d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "快速原型类 Dify 或FastGPT 初探.md",
+                "file": "2026-03 构建企业内部RAG 决策过程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "快速原型类 Dify 或FastGPT 初探"
-            }
-          },
-          {
-            "id": "473d9ac9ac9f0572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RAG工具链法律风险.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RAG工具链法律风险"
+              "title": "2026-03 构建企业内部RAG 决策过程"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "d576bbba2c7d3784",
+        "id": "d735d176b69059cd",
         "type": "tabs",
-        "dimension": 50.99039615846338,
+        "dimension": 85.8356940509915,
         "children": [
           {
-            "id": "b78d88ef1a806eed",
+            "id": "cf85e0bb99e71bce",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "RAG工具链法律风险.md",
+                "file": "2026-03 构建企业内部RAG 决策过程.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -78,7 +63,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "RAG工具链法律风险 的关系图"
+              "title": "2026-03 构建企业内部RAG 决策过程 的关系图"
             }
           }
         ]
@@ -100,7 +85,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "custom",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -138,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 266.5
   },
   "right": {
     "id": "82e1b43aba87cccb",
@@ -231,6 +216,16 @@
             "state": {
               "type": "Strange New Worlds",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "7bcb01ba0c8878a8",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
               "icon": "file-digit",
               "title": "Strange New Worlds"
             }
@@ -251,43 +246,43 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "publish:发布更改": false,
       "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "publish:发布更改": false
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "473d9ac9ac9f0572",
+  "active": "cf85e0bb99e71bce",
   "lastOpenFiles": [
-    "RAG工具链法律风险.md",
-    "快速原型类 Dify 或FastGPT 初探.md",
     "重新考虑新的 RAG 架构选择.md",
+    "Copilot 的 Notebooks 怎么使用的.md",
+    "为什么 小龙虾 在国内其实并不好玩？.md",
+    "快速原型类 Dify 或FastGPT 初探.md",
+    "Claude Code 支持1M上下文.md",
+    "Claude 1M正式上线，价格一分不涨，搭了半年RAG的人崩了。。。.md",
+    "70个Skill、一个AI超级智能体：跨境电商的新神话？.md",
+    "解释ADC.md",
+    "未命名 4.md",
+    "让你的AI技能自己进化——Skill Evolution Manager.md",
+    "超越上下文，让 Agent Skills 完成你的真正需求（0）认识基于 Claude Code or Codex 的 Vibe Coding 和 Agentic Engineering.md",
+    "近期 AI Coding 领域更新，关键词 Harness.md",
+    "Copilot Notebooks 与 Agents 知识库区别.md",
     "2026-03 构建企业内部RAG 决策过程.md",
-    "准备哪些数据库.md",
-    "文档转换为 Markdown 对于 RAG 系统至关重要.md",
-    "探测到Copilot Studio 的能力边界.md",
-    "Embedding 选型-Jina.md",
-    "企业 IT 与合规限制.md",
     "API Key 安全问题与获取问题.md",
-    "初次尝试 M365 Copilot.md",
-    "半自动流水线-索引摘要式 RAG - 例子.md",
-    "MS365 Coplilot & Copilot Studio 逐渐祛魅.md",
-    "web 版本的 Copilot Studio是否还有机会.md",
-    "Docker 这软件干啥用的，跟RAG有啥关系.md",
-    "如何配置 dify Nginx 启动.md",
-    "Docker Engine 没有那么容易启动.md",
-    "Dify配置使用知识库与聊天机器人创建应用程序.md",
-    "Graph API 为什么不适合 RAG.md",
+    "阿喀琉斯之踵.md",
+    "已经开始像一个在设计 AI 系统的人，而不是在用 AI 工具的人。.md",
+    "树莓派 5 安装 小龙虾  指南.md",
+    "小龙虾 13000 个 skills，用这些就够了！小龙虾 完全指南第二篇.md",
+    "CLAUDE.md 全面指南与最佳实践.md",
+    "个人学习成长札记 week 6.md",
+    "个人学习成长笔记  2026.03.02.md",
+    "在MCU中把算法单独编译并下载固化到FLASH~.md",
+    "未命名 2.md",
+    "答应我！新手养龙虾前，先把这10个Skills安装上🦞.md",
     "Dify AI 应用开发平台​简介.md",
-    "企业内部 RAG-协议文档智能助手-目标.md",
-    "生成可用的索引摘要（Level‑1）- 大部分.md",
-    "Dify_RAG学习旅程.md",
-    "谁说C语言不能优雅？手把手带你用纯C撸一套信号槽机制.md",
-    "Obsidian+opencode+skills写文章总结，省时又省力！.md",
-    "Dify配置使用向量库-Weaviate.md",
     "assets/Pasted image 20260315005334.png",
     "assets/Pasted image 20260315001348.png",
     "assets/Pasted image 20260315000946.png",
