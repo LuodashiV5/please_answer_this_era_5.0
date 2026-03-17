@@ -4,102 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d735d176b69059cd",
+        "id": "cf17d07b1124ef59",
         "type": "tabs",
         "children": [
           {
-            "id": "cf85e0bb99e71bce",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "重新考虑新的 RAG 架构选择.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 12.7083333333333,
-                  "linkStrength": 0.916666666666667,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "重新考虑新的 RAG 架构选择 的关系图"
-            }
-          },
-          {
-            "id": "dfca8751c2f8b09b",
+            "id": "4ba434c2b5edc993",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "重新考虑新的 RAG 架构选择.md",
+                "file": "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "重新考虑新的 RAG 架构选择"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "12621e55e657f80c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b08b00a3d74b974d",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "重新考虑新的 RAG 架构选择.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "重新考虑新的 RAG 架构选择 的关系图"
+              "title": "@醍醐灌顶但又胸口发闷"
             }
           }
         ]
@@ -121,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -159,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 423.5
   },
   "right": {
     "id": "82e1b43aba87cccb",
@@ -252,16 +171,6 @@
             "state": {
               "type": "Strange New Worlds",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "Strange New Worlds"
-            }
-          },
-          {
-            "id": "7bcb01ba0c8878a8",
-            "type": "leaf",
-            "state": {
-              "type": "Strange New Worlds",
-              "state": {},
               "icon": "file-digit",
               "title": "Strange New Worlds"
             }
@@ -282,63 +191,64 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "publish:发布更改": false,
       "bases:新建数据库": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "publish:发布更改": false
     }
   },
-  "active": "dfca8751c2f8b09b",
+  "active": "4ba434c2b5edc993",
   "lastOpenFiles": [
-    "Claude Code 支持1M上下文.md",
-    "重新考虑新的 RAG 架构选择.md",
-    "Claude 1M正式上线，价格一分不涨，搭了半年RAG的人崩了。。。.md",
-    "2026-03 构建企业内部RAG 决策过程.md",
-    "重新考虑新的 RAG 架构选择.md.BASE.md",
-    "重新考虑新的 RAG 架构选择.md.REMOTE.md",
-    "重新考虑新的 RAG 架构选择.md.LOCAL.md",
-    "Copilot 的 Notebooks 怎么使用的.md",
-    "BC5EEAF.tmp",
-    "Copilot 的 Notebooks 怎么使用的.md.BASE.md",
-    "Copilot 的 Notebooks 怎么使用的.md.REMOTE.md",
-    "Copilot 的 Notebooks 怎么使用的.md.LOCAL.md",
-    "用Claude Code做RAG的合规性.md",
-    "OPUS 的训练模型量有多大，为什么他这么准.md",
-    "为什么 小龙虾 在国内其实并不好玩？.md",
-    "快速原型类 Dify 或FastGPT 初探.md",
-    "70个Skill、一个AI超级智能体：跨境电商的新神话？.md",
-    "解释ADC.md",
-    "未命名 4.md",
-    "让你的AI技能自己进化——Skill Evolution Manager.md",
-    "超越上下文，让 Agent Skills 完成你的真正需求（0）认识基于 Claude Code or Codex 的 Vibe Coding 和 Agentic Engineering.md",
-    "近期 AI Coding 领域更新，关键词 Harness.md",
-    "Copilot Notebooks 与 Agents 知识库区别.md",
-    "API Key 安全问题与获取问题.md",
-    "阿喀琉斯之踵.md",
-    "已经开始像一个在设计 AI 系统的人，而不是在用 AI 工具的人。.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/Dify_RAG学习旅程.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/RAG 学习旅程 - Copy.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/Top K 指的是“召回段落的数量”.md",
+    "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md",
+    "回复 P20.md",
+    "个人学习成长笔记  2026.03.02.md",
+    "Week 9 个人学习成长 札记.md",
+    "程序员提升生产力的AI技能应用.md",
+    "未命名.canvas",
+    "2026-03 构建企业内部RAG( 日文检索 )/为什么放弃 Copilot 当 RAG.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/2026-03 构建企业内部RAG 决策过程.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/快速原型类 Dify 或FastGPT 初探.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/生成可用的索引摘要（Level‑1）- 大部分.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/为什么放弃了 RAG？ RAG 的六大难题.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/Outline Index 所在领域.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/用多视角消化学习路线.md",
+    "Copilot Test Case Gen Agent.md",
+    "assets/444.jpeg",
+    "2026-03 构建企业内部RAG( 日文检索 )/RAG 学习旅程.md",
+    "未命名 1.md",
+    "AI 赋能嵌入式开发专家/BC56517.tmp",
+    "AI 赋能嵌入式开发专家/嵌入式行业AI进阶学习建议.md",
+    "神经募集能力与肌肉生长的关系.md",
+    "assets/973d59028e0cea5f076e368dc07330f3.jpg",
+    "assets/333.jpeg",
+    "assets/223.jpeg",
+    "Sirius & MBC 实验室准入 & 调试一体化 Checklist.md",
+    "2026-03 early",
+    "2026-03",
+    "New folder",
+    "Sirius & MBC 工程师版 Checklist.md",
+    "@醍醐灌顶但又胸口发闷.md",
+    "assets/Pasted image 20260317224259.png",
+    "assets/66666.jpeg",
+    "assets/8888.jpeg",
+    "2026-03 构建企业内部RAG( 日文检索 )/LCM( Lossless Context Management 无损上下文管理 ）.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/谷歌 Google NotebookLM.md",
+    "2026-03 构建企业内部RAG( 日文检索 )/重新考虑新的 RAG 架构选择.md",
+    "2026-03 构建企业内部RAG( 日文检索 )",
+    "AI 赋能嵌入式开发专家",
     "assets/Pasted image 20260315005334.png",
     "assets/Pasted image 20260315001348.png",
     "assets/Pasted image 20260315000946.png",
-    "assets/Pasted image 20260315000918.png",
-    "assets/Pasted image 20260315000848.png",
-    "assets/444.jpeg",
-    "assets/333.jpeg",
-    "assets/223.jpeg",
-    "law_2026-03-02_001003.png",
-    "未命名.canvas",
     "Excalidraw",
-    "assets/428f2b34d5fb3577b0c1c0581c9d58f5.jpg",
     "SKILLs/product-manager-skills/skills/user-story/scripts/user-story-template.py",
     "SKILLs/product-manager-skills/skills/tam-sam-som-calculator/scripts/market-sizing.py",
     "SKILLs/product-manager-skills/scripts/adapters/ADAPTER_TEMPLATE.sh",
-    "SKILLs/product-manager-skills/scripts/adapters/manual.sh",
-    "SKILLs/product-manager-skills/scripts/adapters/claude-code.sh",
-    "SKILLs/product-manager-skills/skills/user-story-splitting/examples",
-    "SKILLs/product-manager-skills/skills/user-story-mapping/examples",
-    "SKILLs/product-manager-skills/skills/tam-sam-som-calculator/examples",
     "未命名 1.canvas",
     "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.canvas"
   ]
