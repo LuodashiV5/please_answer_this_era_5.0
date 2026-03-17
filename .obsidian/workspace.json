@@ -4,38 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6379f59f813d5438",
+        "id": "d735d176b69059cd",
         "type": "tabs",
         "children": [
           {
-            "id": "63ef68355eb9e767",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Claude Code 支持1M上下文.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude Code 支持1M上下文"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3bb99a614c9eda5b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5f444d121ce1c91b",
+            "id": "cf85e0bb99e71bce",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Claude Code 支持1M上下文.md",
+                "file": "重新考虑新的 RAG 架构选择.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
                   "localJumps": 3,
                   "localBacklinks": true,
@@ -43,7 +23,65 @@
                   "localInterlinks": false,
                   "showTags": false,
                   "showAttachments": false,
-                  "hideUnresolved": true,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 12.7083333333333,
+                  "linkStrength": 0.916666666666667,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "重新考虑新的 RAG 架构选择 的关系图"
+            }
+          },
+          {
+            "id": "dfca8751c2f8b09b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "重新考虑新的 RAG 架构选择.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "重新考虑新的 RAG 架构选择"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "12621e55e657f80c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b08b00a3d74b974d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "重新考虑新的 RAG 架构选择.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": true,
@@ -61,7 +99,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Claude Code 支持1M上下文 的关系图"
+              "title": "重新考虑新的 RAG 架构选择 的关系图"
             }
           }
         ]
@@ -83,7 +121,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -96,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Claude 1M",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,12 +155,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 445.5
   },
   "right": {
     "id": "82e1b43aba87cccb",
@@ -215,6 +252,16 @@
             "state": {
               "type": "Strange New Worlds",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "7bcb01ba0c8878a8",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
               "icon": "file-digit",
               "title": "Strange New Worlds"
             }
@@ -235,43 +282,43 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "publish:发布更改": false,
       "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "publish:发布更改": false
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "63ef68355eb9e767",
+  "active": "dfca8751c2f8b09b",
   "lastOpenFiles": [
-    "重新考虑新的 RAG 架构选择.md",
     "Claude Code 支持1M上下文.md",
-    "用Claude Code做RAG的合规性.md",
+    "重新考虑新的 RAG 架构选择.md",
     "Claude 1M正式上线，价格一分不涨，搭了半年RAG的人崩了。。。.md",
-    "快速原型类 Dify 或FastGPT 初探.md",
-    "RAG工具链法律风险.md",
-    "21 个问题，把 小龙虾  从打杂工升级成懂你的搭档.md",
-    "不懂代码照样造网站，老金15万字Claude Code+小龙虾  教程免费开源.md",
-    "为什么 小龙虾 在国内其实并不好玩？.md",
-    "从 玩具 到 工具 小龙虾  开发者工作流的工程化实践.md",
-    "树莓派 5 安装 小龙虾  指南.md",
-    "Copilot 的 Notebooks 怎么使用的.md",
-    "Copilot Notebooks 与 Agents 知识库区别.md",
     "2026-03 构建企业内部RAG 决策过程.md",
-    "如何配置 dify Nginx 启动.md",
+    "重新考虑新的 RAG 架构选择.md.BASE.md",
+    "重新考虑新的 RAG 架构选择.md.REMOTE.md",
+    "重新考虑新的 RAG 架构选择.md.LOCAL.md",
+    "Copilot 的 Notebooks 怎么使用的.md",
+    "BC5EEAF.tmp",
+    "Copilot 的 Notebooks 怎么使用的.md.BASE.md",
+    "Copilot 的 Notebooks 怎么使用的.md.REMOTE.md",
+    "Copilot 的 Notebooks 怎么使用的.md.LOCAL.md",
+    "用Claude Code做RAG的合规性.md",
     "OPUS 的训练模型量有多大，为什么他这么准.md",
-    "Dify配置使用知识库与聊天机器人创建应用程序.md",
-    "Docker镜像源加速器.md",
+    "为什么 小龙虾 在国内其实并不好玩？.md",
+    "快速原型类 Dify 或FastGPT 初探.md",
+    "70个Skill、一个AI超级智能体：跨境电商的新神话？.md",
     "解释ADC.md",
-    "企业内部 RAG-协议文档智能助手-目标.md",
-    "Graph API 为什么不适合 RAG.md",
-    "Embedding 选型-Jina.md",
+    "未命名 4.md",
+    "让你的AI技能自己进化——Skill Evolution Manager.md",
+    "超越上下文，让 Agent Skills 完成你的真正需求（0）认识基于 Claude Code or Codex 的 Vibe Coding 和 Agentic Engineering.md",
+    "近期 AI Coding 领域更新，关键词 Harness.md",
+    "Copilot Notebooks 与 Agents 知识库区别.md",
     "API Key 安全问题与获取问题.md",
-    "Dify AI 应用开发平台​简介.md",
-    "Dify配置使用向量库-Weaviate.md",
-    "写《Agent 使用说明（给非 AI 用户）》.md",
+    "阿喀琉斯之踵.md",
+    "已经开始像一个在设计 AI 系统的人，而不是在用 AI 工具的人。.md",
     "assets/Pasted image 20260315005334.png",
     "assets/Pasted image 20260315001348.png",
     "assets/Pasted image 20260315000946.png",
@@ -292,7 +339,6 @@
     "SKILLs/product-manager-skills/skills/user-story-splitting/examples",
     "SKILLs/product-manager-skills/skills/user-story-mapping/examples",
     "SKILLs/product-manager-skills/skills/tam-sam-som-calculator/examples",
-    "SKILLs/product-manager-skills/skills/tam-sam-som-calculator/scripts",
     "未命名 1.canvas",
     "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.canvas"
   ]
