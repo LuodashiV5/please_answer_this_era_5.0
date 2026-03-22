@@ -1,8 +1,5 @@
 Prompt [线圈 DCR 是什么 | Try in Copilot Chat](https://m365.cloud.microsoft/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNk1EVXlObVV4WXpBdFl6Y3dZeTAwTkdFM0xUazNNall0TXpjNFlqWXdNRE0wTWpFemZEUXlNREE1TVRRNExURmxaalF0TkRGbE1DMDVPREJsTFdFME5XRXdPVE0yWTJVek9Yd3lNREkyTFRBekxUQXpWREExT2pJeE9qQTBMamN3TmpJek9EaGEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVJpY2hDb3B5IiwicHJvcGVydGllcyI6eyJwcm9tcHRTb3VyY2UiOiJ1c2VyIiwiY2xpY2tUaW1lc3RhbXAiOiIyMDI2LTAzLTAzVDA1OjIxOjA0LjkyMVoifSwiY2hhdFR5cGUiOiJ3b3JrIiwidmVyc2lvbiI6MS4xfQ)
 
-线圈 DCR 是什么
-
-Response
 
 **线圈 DCR** 指的是 **Direct Current Resistance（直流电阻）**，也就是**线圈在直流条件下的等效电阻**。结合你截图里的讨论场景（给线圈通电、发热/恒温），可以这样理解：
 
@@ -19,14 +16,7 @@ Response
 
 - 线圈本质是**绕组（铜线）**
 
-- 在
-
-  直流或低频
-
-  情况下：
-
-  - 感抗 ≈ 0
-  - 行为 ≈ **纯电阻**
+- 在 直流或低频情况下：  - 感抗 ≈ 0   - 行为 ≈ **纯电阻**
 
 - 这个电阻值，就是 **DCR**
 
@@ -44,7 +34,7 @@ Response
 - 给线圈一个**受控的小电流**
 - 发热功率由：
 
-P=I2⋅RDCRP = I^2 \cdot R_{DCR}
+$P=I2⋅RDCRP = I^2 \cdot R_{DCR}$
 
 - 本质和电阻加热一样（焦耳热）
 

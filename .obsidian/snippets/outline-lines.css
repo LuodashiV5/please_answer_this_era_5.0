@@ -1,0 +1,6 @@
+/* 为大纲缩进添加垂直竖线 */
+.markdown-source-view.mod-cm6 .cm-indent::before {
+    border-right: 1px solid var(--indentation-guide-color) !important;
+    margin-right: 0.5em; /* 增加与文字的间距 */
+    opacity: 0.6; /* 可选：让线条稍淡一点 */
+}

@@ -4,5 +4,13 @@
   "showLineNumber": true,
   "rightToLeft": false,
   "promptDelete": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": false,
+  "newFileLocation": "current",
+  "showInlineTitle": true,
+  "foldHeading": true,
+  "spellcheck": true,
+  "focusNewTab": true,
+  "livePreview": true,
+  "propertiesInDocument": "visible"
 }

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cf17d07b1124ef59",
+        "id": "736c1a47aba948d5",
         "type": "tabs",
         "children": [
           {
-            "id": "4ba434c2b5edc993",
+            "id": "a15d3a3d00b58dac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "@醍醐灌顶但又胸口发闷"
+              "title": "新标签页"
             }
           }
         ]
@@ -73,6 +69,16 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "60b747aaa1a4b251",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
@@ -94,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文档转换为 Markdown 对于 RAG 系统至关重要.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "文档转换为 Markdown 对于 RAG 系统至关重要 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +118,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文档转换为 Markdown 对于 RAG 系统至关重要.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "文档转换为 Markdown 对于 RAG 系统至关重要 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -156,13 +160,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "文档转换为 Markdown 对于 RAG 系统至关重要.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "文档转换为 Markdown 对于 RAG 系统至关重要 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -174,13 +177,43 @@
               "icon": "file-digit",
               "title": "Strange New Worlds"
             }
+          },
+          {
+            "id": "22975967b2b28b19",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "96b15f49489acead",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "40fafe50563023cb",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 562.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -197,58 +230,60 @@
       "obsidian-importer:Open Importer": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "publish:发布更改": false
+      "publish:发布更改": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4ba434c2b5edc993",
+  "active": "a15d3a3d00b58dac",
   "lastOpenFiles": [
-    "2026-03 构建企业内部RAG( 日文检索 )/Dify_RAG学习旅程.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/RAG 学习旅程 - Copy.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/Top K 指的是“召回段落的数量”.md",
-    "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md",
-    "回复 P20.md",
-    "个人学习成长笔记  2026.03.02.md",
-    "Week 9 个人学习成长 札记.md",
-    "程序员提升生产力的AI技能应用.md",
-    "未命名.canvas",
-    "2026-03 构建企业内部RAG( 日文检索 )/为什么放弃 Copilot 当 RAG.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/2026-03 构建企业内部RAG 决策过程.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/快速原型类 Dify 或FastGPT 初探.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/生成可用的索引摘要（Level‑1）- 大部分.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/为什么放弃了 RAG？ RAG 的六大难题.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/Outline Index 所在领域.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/用多视角消化学习路线.md",
-    "Copilot Test Case Gen Agent.md",
-    "assets/444.jpeg",
-    "2026-03 构建企业内部RAG( 日文检索 )/RAG 学习旅程.md",
-    "未命名 1.md",
-    "AI 赋能嵌入式开发专家/BC56517.tmp",
-    "AI 赋能嵌入式开发专家/嵌入式行业AI进阶学习建议.md",
-    "神经募集能力与肌肉生长的关系.md",
-    "assets/973d59028e0cea5f076e368dc07330f3.jpg",
-    "assets/333.jpeg",
-    "assets/223.jpeg",
-    "Sirius & MBC 实验室准入 & 调试一体化 Checklist.md",
-    "2026-03 early",
-    "2026-03",
-    "New folder",
-    "Sirius & MBC 工程师版 Checklist.md",
-    "@醍醐灌顶但又胸口发闷.md",
-    "assets/Pasted image 20260317224259.png",
-    "assets/66666.jpeg",
-    "assets/8888.jpeg",
-    "2026-03 构建企业内部RAG( 日文检索 )/LCM( Lossless Context Management 无损上下文管理 ）.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/谷歌 Google NotebookLM.md",
-    "2026-03 构建企业内部RAG( 日文检索 )/重新考虑新的 RAG 架构选择.md",
-    "2026-03 构建企业内部RAG( 日文检索 )",
-    "AI 赋能嵌入式开发专家",
-    "assets/Pasted image 20260315005334.png",
-    "assets/Pasted image 20260315001348.png",
-    "assets/Pasted image 20260315000946.png",
-    "Excalidraw",
-    "SKILLs/product-manager-skills/skills/user-story/scripts/user-story-template.py",
-    "SKILLs/product-manager-skills/skills/tam-sam-som-calculator/scripts/market-sizing.py",
-    "SKILLs/product-manager-skills/scripts/adapters/ADAPTER_TEMPLATE.sh",
+    "superpowers/tests/subagent-driven-dev/svelte-todo/scaffold.sh",
+    "superpowers/tests/subagent-driven-dev/svelte-todo/plan.md",
+    "superpowers/tests/subagent-driven-dev/svelte-todo/design.md",
+    "superpowers/tests/subagent-driven-dev/run-test.sh",
+    "superpowers/tests/subagent-driven-dev/go-fractals/scaffold.sh",
+    "superpowers/tests/subagent-driven-dev/go-fractals/plan.md",
+    "superpowers/tests/subagent-driven-dev/go-fractals/design.md",
+    "superpowers/tests/skill-triggering/run-test.sh",
+    "superpowers/tests/skill-triggering/run-all.sh",
+    "superpowers/tests/skill-triggering/prompts/writing-plans.txt",
+    "superpowers/tests/skill-triggering/prompts/test-driven-development.txt",
+    "superpowers/tests/skill-triggering/prompts/systematic-debugging.txt",
+    "superpowers/tests/skill-triggering/prompts/requesting-code-review.txt",
+    "superpowers/tests/skill-triggering/prompts/executing-plans.txt",
+    "superpowers/tests/skill-triggering/prompts/dispatching-parallel-agents.txt",
+    "superpowers/docs/README.codex.md",
+    "superpowers/commands/write-plan.md",
+    "superpowers/commands/execute-plan.md",
+    "superpowers/commands/brainstorm.md",
+    "superpowers/agents/code-reviewer.md",
+    "superpowers/RELEASE-NOTES.md",
+    "superpowers/README.md",
+    "product-manager-prompts/skeletons/README.md",
+    "product-manager-prompts/skeletons/A Prompt Skeleton Analysis Toolkit.md",
+    "product-manager-prompts/resumes-resignations-reactions/Reaction – You Can't Fire Me I Quit Dear John Letter.md",
+    "product-manager-prompts/resumes-resignations-reactions/Reaction – LinkedIn Lifestyle Influencer Article – 7 Steps to Nowhere.md",
+    "product-manager-prompts/resumes-resignations-reactions/Reaction – Glassdoor Review – A Masterclass in Pretending to Care.md",
+    "product-manager-prompts/resumes-resignations-reactions/README.md",
+    "product-manager-prompts/prompts/visionary-press-release.md",
+    "product-manager-prompts/prompts/howto.md",
+    "product-manager-prompts/prompts/futuristic-product-faq.md",
+    "pm-skills/skills/iterate-pivot-decision/SKILL.md",
+    "pm-skills/skills/iterate-lessons-log/references/TEMPLATE.md",
+    "pm-skills/skills/iterate-lessons-log/references/EXAMPLE.md",
+    "pm-skills/skills/define-hypothesis/SKILL.md",
+    "pm-skills/scripts/README_SCRIPTS.md",
+    "claude-code-skills/demos/ui-designer/extract-design-system.gif",
+    "claude-code-skills/demos/teams-channel-post-writer/write-post.gif",
+    "claude-code-skills/demos/statusline-generator/customize-statusline.gif",
+    "claude-code-skills/demos/skill-creator/validate-skill.gif",
+    "claude-code-skills/demos/skill-creator/package-skill.gif",
+    "claude-code-skills/demos/skill-creator/init-skill.gif",
+    "claude-code-skills/demos/repomix-unmixer/extract-repo.gif",
+    "claude-code-skills/demos/ppt-creator/create-presentation.gif",
+    "awesome-pm-skills/images/zero-to-launch.png",
+    "awesome-pm-skills/images/workplace-navigation.png",
+    "Claude Code 今天上线了“btw”命令.canvas",
     "未命名 1.canvas",
     "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.canvas"
   ]

@@ -1,0 +1,185 @@
+/* ============================================
+   Obsidian 大纲视图增强竖线样式
+   适用于：实时编辑模式 + 阅读模式
+   创建：2025-03-21
+   ============================================ */
+
+/* 1. 实时编辑模式（Live Preview） */
+.markdown-source-view.mod-cm6 .cm-indent::before {
+    /* 核心样式：垂直竖线 */
+    border-right: 1px solid var(--indentation-guide-color, #888) !important;
+    
+    /* 调整间距和位置 */
+    margin-right: 0.5em !important;
+    
+    /* 可选：让线条贯穿行高 */
+    height: 100% !important;
+    top: 0 !important;
+    
+    /* 视觉优化 */
+    opacity: 0.7 !important;
+    transition: opacity 0.2s ease, border-color 0.2s ease;
+}
+
+/* 1.1 鼠标悬停时高亮线条 */
+.markdown-source-view.mod-cm6 .cm-indent:hover::before {
+    opacity: 1 !important;
+    border-right-width: 2px !important;
+    border-right-color: var(--interactive-accent, #7b6ef6) !important;
+}
+
+/* ---------------------------------------------------- */
+
+/* 2. 阅读模式（Reading View） */
+.markdown-reading-view .cm-indent::before,
+.markdown-rendered.show-indentation-guide li > ul::before,
+.markdown-rendered.show-indentation-guide li > ol::before {
+    /* 核心样式 */
+    border-right: 1px solid var(--indentation-guide-color, #888) !important;
+    
+    /* 调整间距 */
+    margin-right: 0.5em !important;
+    
+    /* 视觉一致 */
+    opacity: 0.7 !important;
+    height: calc(100% - 0.2em) !important;
+    top: 0.1em !important;
+    bottom: 0.1em !important;
+}
+
+/* 2.1 列表项内部优化 */
+.markdown-rendered li {
+    position: relative;
+}
+
+/* 2.2 阅读模式悬停效果 */
+.markdown-reading-view .cm-indent:hover::before,
+.markdown-rendered.show-indentation-guide li:hover > ul::before,
+.markdown-rendered.show-indentation-guide li:hover > ol::before {
+    opacity: 1 !important;
+    border-right-color: var(--text-accent, #7b6ef6) !important;
+}
+
+/* ---------------------------------------------------- */
+
+/* 3. 社区主题兼容性（针对某些主题调整） */
+
+/* 3.1 适用于 AnuPpuccin 等主题 */
+.theme-dark .cm-indent::before {
+    border-right-color: var(--indentation-guide-color, #4a4a4a) !important;
+}
+
+.theme-light .cm-indent::before {
+    border-right-color: var(--indentation-guide-color, #d4d4d4) !important;
+}
+
+/* 3.2 适用于 Minimal 主题 */
+body.theme-minimal .cm-indent::before {
+    opacity: 0.5 !important;
+}
+
+/* 3.3 适用于 Things 主题 */
+body.theme-things .cm-indent::before {
+    border-right-style: dashed !important;
+    opacity: 0.4 !important;
+}
+
+/* ---------------------------------------------------- */
+
+/* 4. 可选：彩色层级竖线（启用此部分可获得彩虹效果） */
+/* 取消下面的注释即可启用 */
+
+/*
+.markdown-source-view.mod-cm6 .cm-indent-1::before {
+    border-right-color: #ff6b6b !important;  /* 红色 - 第1级 */
+}
+
+.markdown-source-view.mod-cm6 .cm-indent-2::before {
+    border-right-color: #4ecdc4 !important;  /* 青色 - 第2级 */
+}
+
+.markdown-source-view.mod-cm6 .cm-indent-3::before {
+    border-right-color: #45b7d1 !important;  /* 蓝色 - 第3级 */
+}
+
+.markdown-source-view.mod-cm6 .cm-indent-4::before {
+    border-right-color: #96ceb4 !important;  /* 绿色 - 第4级 */
+}
+
+.markdown-source-view.mod-cm6 .cm-indent-5::before {
+    border-right-color: #ffeaa7 !important;  /* 黄色 - 第5级 */
+}
+
+.markdown-source-view.mod-cm6 .cm-indent-6::before {
+    border-right-color: #dda0dd !important;  /* 紫色 - 第6级 */
+}
+*/
+
+/* ---------------------------------------------------- */
+
+/* 5. 调试模式（如果样式不生效，可临时启用查看） */
+/*
+.outline-view * {
+    border: 1px solid red !important;
+}
+*/
+
+/* ============================================
+   6. 大纲视图添加层级分隔线
+   ============================================ */
+
+/* 6.1 实时编辑模式大纲的分隔线 */
+.outline .tree-item-inner {
+    position: relative;
+    padding-left: 0.5em;
+}
+
+.outline .tree-item:not(.is-collapsed) > .tree-item-children::before {
+    content: "---";
+    display: block;
+    color: var(--text-faint);
+    font-size: 0.85em;
+    padding: 0.2em 0 0.2em 1.5em;
+    margin: 0.2em 0;
+    border-left: none;
+    opacity: 0.5;
+    font-family: monospace;
+    letter-spacing: 0.1em;
+}
+
+/* 6.2 大纲视图的层级缩进线增强 */
+.outline .tree-item-self[data-depth="1"] {
+    border-left: 1px solid var(--indentation-guide-color);
+    padding-left: 1em;
+    margin-left: 0.5em;
+}
+
+.outline .tree-item-self[data-depth="2"] {
+    border-left: 1px dashed var(--indentation-guide-color);
+    padding-left: 2em;
+    margin-left: 1em;
+}
+
+.outline .tree-item-self[data-depth="3"] {
+    border-left: 1px dotted var(--indentation-guide-color);
+    padding-left: 3em;
+    margin-left: 1.5em;
+}
+
+/* 6.3 悬停效果 */
+.outline .tree-item-self:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* 大纲标题前加图标 */
+.outline .tree-item-self[data-level="1"]::before {
+    content: "📁 ";
+}
+
+.outline .tree-item-self[data-level="2"]::before {
+    content: "📄 ";
+}
+
+.outline .tree-item-self[data-level="3"]::before {
+    content: "📑 ";
+}
