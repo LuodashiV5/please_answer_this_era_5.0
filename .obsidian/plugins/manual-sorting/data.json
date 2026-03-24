@@ -2,23 +2,11 @@
   "customOrder": {
     "/": {
       "children": [
+        "2026-03 用LLM预测磁悬浮轴承跌落路径",
+        "2026-03 OpenClaw 电商客服",
+        "AI Agent开发工程师和传统软件工程师在技能要求上最主要的区别是什么？.md",
         "中转站使用 vps 转发的.md",
-        "AI 时代工程师的价值重塑.md",
-        "STM32Cube.AI和TFLite Micro在部署LSTM模型时的主要性能差异有哪些？.md",
         "2026-03 自然语音转换空调设置命令",
-        "2026-03 自然语音转换空调设置命令.md",
-        "这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md",
-        "一条“从现在的 H563 → 将来 N6”的自然演进路线.md",
-        "Edge‑AI MVP 技术规格 v1.0（STM32H563）.md",
-        "一颗 STM32H563，完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”.md",
-        "先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上.md",
-        "LSTM + TFLite + CMSIS‑NN 完全可以做出一个“工程级 MVP”.md",
-        "LSTM 是“用来判断一段时间内信号走势会不会失控”的算法.md",
-        "帮我画一张系统架构图.md",
-        "帮我画一张系统架构图.md",
-        "2026-04 用LLM预测磁悬浮轴承跌落路径",
-        "STM32H563 可跑的 LSTM 最小规格（MVP）.md",
-        "2026年程序员如何转型AI大模型应用开发？.md",
         "一个超实用的决策公式——EKB算法.md",
         "2026年产品经理能力模型核心要点总结.md",
         "同样是网口，为什么EtherCat可以做到纳秒级同步，而普通以太网却不行？.md",
@@ -202,6 +190,91 @@
       ],
       "sortOrder": "custom"
     },
+    "2026-03 OpenClaw 电商客服": {
+      "children": [
+        "2026-03 OpenClaw 电商客服/通用电商客服框架.yml",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）",
+        "2026-03 OpenClaw 电商客服/批量创建 agents.txt",
+        "2026-03 OpenClaw 电商客服/智能店铺客服系统（OpenClaw 多 Agent 架构设计）.txt",
+        "2026-03 OpenClaw 电商客服/我的飞书已经可以和openclaw 对话了.png",
+        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent",
+        "2026-03 OpenClaw 电商客服/商品供应商2026.03.11.csv",
+        "2026-03 OpenClaw 电商客服/商品上架 (09_03_2026 10：12：07 pm).html",
+        "2026-03 OpenClaw 电商客服/化工原料参数确认 & COA索取 Agent.md",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent（Customer Service Agent） V2.html",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent（Customer Service Agent） V1.html",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）",
+        "2026-03 OpenClaw 电商客服/创建新的 Agent 工作区 ...  配置 Agent 人格（核心） ... 这些可以使用对话方式，让openclaw 自己去填写吗.png",
+        "2026-03 OpenClaw 电商客服/你是一个面向“化工原料  Chemical Raw Materials”行业的商品上架 Listing Agent.txt",
+        "2026-03 OpenClaw 电商客服/Order-Agent Prompt（v1）.md",
+        "2026-03 OpenClaw 电商客服/Order-Agent Prompt v2.md",
+        "2026-03 OpenClaw 电商客服/OpenClaw 1688平台客服架构助手（1688-CS Builder）.yml",
+        "2026-03 OpenClaw 电商客服/openclaw做个智能店铺客服系统.md",
+        "2026-03 OpenClaw 电商客服/Copilot 创建个 问答专用 Agent.png",
+        "2026-03 OpenClaw 电商客服/Main Agent 路由调度策略.txt",
+        "2026-03 OpenClaw 电商客服/law_2026-03-09_193953.png",
+        "2026-03 OpenClaw 电商客服/customer_service_agent",
+        "2026-03 OpenClaw 电商客服/chem_product_listing",
+        "2026-03 OpenClaw 电商客服/1688的B2B批发、定制、供应链协同 客服框架.yml",
+        "2026-03 OpenClaw 电商客服/1688 & 化工行业 & B2B批发、定制、供应链协同 客服框架.yml"
+      ],
+      "sortOrder": "custom"
+    },
+    "2026-03 OpenClaw 电商客服/chem_product_listing": {
+      "children": [
+        "2026-03 OpenClaw 电商客服/chem_product_listing/USER.md",
+        "2026-03 OpenClaw 电商客服/chem_product_listing/TOOLS.md",
+        "2026-03 OpenClaw 电商客服/chem_product_listing/SOUL.md",
+        "2026-03 OpenClaw 电商客服/chem_product_listing/IDENTITY.md",
+        "2026-03 OpenClaw 电商客服/chem_product_listing/HEARTBEAT.md",
+        "2026-03 OpenClaw 电商客服/chem_product_listing/BOOTSTRAP.md",
+        "2026-03 OpenClaw 电商客服/chem_product_listing/AGENTS.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "2026-03 OpenClaw 电商客服/customer_service_agent": {
+      "children": [
+        "2026-03 OpenClaw 电商客服/customer_service_agent/SOUL.md",
+        "2026-03 OpenClaw 电商客服/customer_service_agent/USER.md",
+        "2026-03 OpenClaw 电商客服/customer_service_agent/IDENTITY.md",
+        "2026-03 OpenClaw 电商客服/customer_service_agent/AGENTS.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）": {
+      "children": [
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）/USER.md",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）/TOOLS.md",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）/SOUL.md",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）/IDENTITY.md",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）/HEARTBEAT.md",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）/BOOTSTRAP.md",
+        "2026-03 OpenClaw 电商客服/前台-客服问答 Agent 完整模板（MVP 版）/AGENTS.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "2026-03 OpenClaw 电商客服/商品上架 Listing Agent": {
+      "children": [
+        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/上架 Agent.md",
+        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/Listing Agent.md",
+        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/Listing Agent -Agent JSON 配置草案.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）": {
+      "children": [
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/5. 示例 完整运行示例.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/4. 输出 Schema Agent Output.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/3. 输入 Schema Agent Input.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/2.4 生成短视频素材 generate_short_video_script.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/2.3 推送直播商品卡片 push_product_card.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/2.2 查询直播实时数据 get_realtime_live_stats.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/2.1 查询商品详情 query_product.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/2. Tools 工具定义.md",
+        "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）/1. Agent System Prompt 完整角色设定.md"
+      ],
+      "sortOrder": "custom"
+    },
     "2026-03 构建企业内部RAG( 日文检索 )": {
       "children": [
         "2026-03 构建企业内部RAG( 日文检索 )/Dify_RAG学习旅程.md",
@@ -251,13 +324,38 @@
       ],
       "sortOrder": "custom"
     },
+    "2026-03 用LLM预测磁悬浮轴承跌落路径": {
+      "children": [
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/我去，看了一下LSTM 原理的讲解，一直犯困 。。。.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/想想实现路径.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/一条“从现在的 H563 → 将来 N6”的自然演进路线.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/一颗 STM32H563 完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/STM32H563 可跑的 LSTM 最小规格（MVP）.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/STM32Cube.AI和TFLite Micro在部署LSTM模型时的主要性能差异有哪些？.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/LSTM 是“用来判断一段时间内信号走势会不会失控”的算法.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/LSTM + TFLite + CMSIS‑NN 完全可以做出一个“工程级 MVP”.md",
+        "2026-03 用LLM预测磁悬浮轴承跌落路径/Edge‑AI MVP 技术规格 v1.0（STM32H563）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "2026-03 自然语音转换空调设置命令": {
+      "children": [
+        "2026-03 自然语音转换空调设置命令/学习路线.md",
+        "2026-03 自然语音转换空调设置命令/2026-03 自然语音转换空调设置命令.md"
+      ],
+      "sortOrder": "custom"
+    },
     "AI 赋能嵌入式开发专家": {
       "children": [
+        "AI 赋能嵌入式开发专家/AI 时代工程师的价值重塑.md",
+        "AI 赋能嵌入式开发专家/2026年程序员如何转型AI大模型应用开发？.md",
         "AI 赋能嵌入式开发专家/章工@435赫兹 芯片之家.md",
         "AI 赋能嵌入式开发专家/LLM 在“编程领域看起来几乎 100% 可用”.md",
         "AI 赋能嵌入式开发专家/微信公众号信息过载管理方法.md",
         "AI 赋能嵌入式开发专家/帮我定制点 边缘AI的学习路线.md",
-        "AI 赋能嵌入式开发专家/AI Agent开发工程师和传统软件工程师在技能要求上最主要的区别是什么？.md",
         "AI 赋能嵌入式开发专家/嵌入式行业AI进阶学习建议.md",
         "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md"
       ],
@@ -276,6 +374,7 @@
     },
     "assets": {
       "children": [
+        "assets/Pasted image 20260324225212.png",
         "assets/9f045ebd4b0ac78986020959e9957ec4 1.png",
         "assets/9f045ebd4b0ac78986020959e9957ec4.png",
         "assets/5f0323c6f73f7a9e9d02075e51eba1f3.png",
@@ -5208,6 +5307,13 @@
     },
     "SKILLs": {
       "children": [
+        "SKILLs/Story_Task_Architect.md",
+        "SKILLs/Jira_Language_Translator.md",
+        "SKILLs/Refactoring_Advisor.md",
+        "SKILLs/Embedded_Skeleton_Architect.md",
+        "SKILLs/JQL_Query_Assistant.md",
+        "SKILLs/Embedded_C_Telemetry_Architect.md",
+        "SKILLs/C-Language-Read-Calculate-Write-Skill.md",
         "SKILLs/Anthropic.Skills",
         "SKILLs/awesome-agent-skills",
         "SKILLs/awesome-openclaw-usecases",
@@ -5230,20 +5336,13 @@
         "SKILLs/conventional_commits_expert.md",
         "SKILLs/embedded_unity_architect.md",
         "SKILLs/embedded_test_architect.md",
-        "SKILLs/c-language-read-calculate-write-skill.md",
-        "SKILLs/embedded_c_telemetry_architect.md",
         "SKILLs/embedded_c_custom_logger_refactor.md",
-        "SKILLs/story_task_architect.md",
-        "SKILLs/refactoring_advisor.md",
-        "SKILLs/jira_language_translator.md",
         "SKILLs/embedded_source_guard.skill.md",
-        "SKILLs/embedded_skeleton_architect.md",
         "SKILLs/code_context_explainer.md",
         "SKILLs/code_review_trio_switch_skill.md",
         "SKILLs/copilot_meeting_skill_v2.md",
         "SKILLs/daily_report_skill.md",
         "SKILLs/weekly_report_transformer.md",
-        "SKILLs/jql_query_assistant.md",
         "SKILLs/lab_log_analyzer.md",
         "SKILLs/confluence_jira_link_skill.md",
         "SKILLs/copilot_meeting_skill_v1.md"
@@ -12917,14 +13016,6 @@
         "superpowers/tests/subagent-driven-dev/svelte-todo/plan.md",
         "superpowers/tests/subagent-driven-dev/svelte-todo/scaffold.sh"
       ],
-      "sortOrder": "custom"
-    },
-    "2026-04 用LLM预测磁悬浮轴承跌落路径": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "2026-03 自然语音转换空调设置命令": {
-      "children": [],
       "sortOrder": "custom"
     }
   },

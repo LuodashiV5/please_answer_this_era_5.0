@@ -8,16 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a15d3a3d00b58dac",
+            "id": "676dc837e5d211ae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-03 自然语音转换空调设置命令/2026-03 自然语音转换空调设置命令.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-03 自然语音转换空调设置命令"
+            }
+          },
+          {
+            "id": "8601431153bfa6e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-03 自然语音转换空调设置命令/学习路线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "学习路线"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 507.5
   },
   "right": {
     "id": "82e1b43aba87cccb",
@@ -100,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2026-04 用LLM预测磁悬浮轴承跌落路径/这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例” 的反向链接列表"
             }
           },
           {
@@ -118,11 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2026-04 用LLM预测磁悬浮轴承跌落路径/这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例” 的出链列表"
             }
           },
           {
@@ -160,12 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2026-04 用LLM预测磁悬浮轴承跌落路径/这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例” 的大纲"
             }
           },
           {
@@ -235,54 +257,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a15d3a3d00b58dac",
+  "active": "8601431153bfa6e6",
   "lastOpenFiles": [
-    "superpowers/tests/subagent-driven-dev/svelte-todo/scaffold.sh",
-    "superpowers/tests/subagent-driven-dev/svelte-todo/plan.md",
-    "superpowers/tests/subagent-driven-dev/svelte-todo/design.md",
-    "superpowers/tests/subagent-driven-dev/run-test.sh",
-    "superpowers/tests/subagent-driven-dev/go-fractals/scaffold.sh",
-    "superpowers/tests/subagent-driven-dev/go-fractals/plan.md",
-    "superpowers/tests/subagent-driven-dev/go-fractals/design.md",
-    "superpowers/tests/skill-triggering/run-test.sh",
-    "superpowers/tests/skill-triggering/run-all.sh",
-    "superpowers/tests/skill-triggering/prompts/writing-plans.txt",
-    "superpowers/tests/skill-triggering/prompts/test-driven-development.txt",
-    "superpowers/tests/skill-triggering/prompts/systematic-debugging.txt",
-    "superpowers/tests/skill-triggering/prompts/requesting-code-review.txt",
-    "superpowers/tests/skill-triggering/prompts/executing-plans.txt",
-    "superpowers/tests/skill-triggering/prompts/dispatching-parallel-agents.txt",
-    "superpowers/docs/README.codex.md",
-    "superpowers/commands/write-plan.md",
-    "superpowers/commands/execute-plan.md",
-    "superpowers/commands/brainstorm.md",
-    "superpowers/agents/code-reviewer.md",
-    "superpowers/RELEASE-NOTES.md",
-    "superpowers/README.md",
-    "product-manager-prompts/skeletons/README.md",
-    "product-manager-prompts/skeletons/A Prompt Skeleton Analysis Toolkit.md",
-    "product-manager-prompts/resumes-resignations-reactions/Reaction – You Can't Fire Me I Quit Dear John Letter.md",
-    "product-manager-prompts/resumes-resignations-reactions/Reaction – LinkedIn Lifestyle Influencer Article – 7 Steps to Nowhere.md",
-    "product-manager-prompts/resumes-resignations-reactions/Reaction – Glassdoor Review – A Masterclass in Pretending to Care.md",
-    "product-manager-prompts/resumes-resignations-reactions/README.md",
-    "product-manager-prompts/prompts/visionary-press-release.md",
-    "product-manager-prompts/prompts/howto.md",
-    "product-manager-prompts/prompts/futuristic-product-faq.md",
-    "pm-skills/skills/iterate-pivot-decision/SKILL.md",
-    "pm-skills/skills/iterate-lessons-log/references/TEMPLATE.md",
-    "pm-skills/skills/iterate-lessons-log/references/EXAMPLE.md",
-    "pm-skills/skills/define-hypothesis/SKILL.md",
-    "pm-skills/scripts/README_SCRIPTS.md",
-    "claude-code-skills/demos/ui-designer/extract-design-system.gif",
-    "claude-code-skills/demos/teams-channel-post-writer/write-post.gif",
-    "claude-code-skills/demos/statusline-generator/customize-statusline.gif",
-    "claude-code-skills/demos/skill-creator/validate-skill.gif",
-    "claude-code-skills/demos/skill-creator/package-skill.gif",
-    "claude-code-skills/demos/skill-creator/init-skill.gif",
-    "claude-code-skills/demos/repomix-unmixer/extract-repo.gif",
-    "claude-code-skills/demos/ppt-creator/create-presentation.gif",
-    "awesome-pm-skills/images/zero-to-launch.png",
-    "awesome-pm-skills/images/workplace-navigation.png",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/我去，看了一下LSTM 原理的讲解，一直犯困 。。。.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/想想实现路径.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/一颗 STM32H563 完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/STM32H563 可跑的 LSTM 最小规格（MVP）.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/一条“从现在的 H563 → 将来 N6”的自然演进路线.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/STM32Cube.AI和TFLite Micro在部署LSTM模型时的主要性能差异有哪些？.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/LSTM 是“用来判断一段时间内信号走势会不会失控”的算法.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/LSTM + TFLite + CMSIS‑NN 完全可以做出一个“工程级 MVP”.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径/Edge‑AI MVP 技术规格 v1.0（STM32H563）.md",
+    "2026-04 用LLM预测磁悬浮轴承跌落路径",
+    "assets/Pasted image 20260324225212.png",
+    "2026-03 自然语音转换空调设置命令/2026-03 自然语音转换空调设置命令.md",
+    "2026-03 自然语音转换空调设置命令/学习路线.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/一颗 STM32H563 完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”.md",
+    "中转站使用 vps 转发的.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/Edge‑AI MVP 技术规格 v1.0（STM32H563）.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/我去，看了一下LSTM 原理的讲解，一直犯困 。。。.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/想想实现路径.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/一条“从现在的 H563 → 将来 N6”的自然演进路线.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/STM32H563 可跑的 LSTM 最小规格（MVP）.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/STM32Cube.AI和TFLite Micro在部署LSTM模型时的主要性能差异有哪些？.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径/LSTM 是“用来判断一段时间内信号走势会不会失控”的算法.md",
+    "2026-03 用LLM预测磁悬浮轴承跌落路径",
+    "2026-03 OpenClaw 电商客服/通用电商客服框架.yml",
+    "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）",
+    "2026-03 OpenClaw 电商客服/批量创建 agents.txt",
+    "2026-03 OpenClaw 电商客服/智能店铺客服系统（OpenClaw 多 Agent 架构设计）.txt",
+    "2026-03 OpenClaw 电商客服/我的飞书已经可以和openclaw 对话了.png",
+    "2026-03 OpenClaw 电商客服/商品上架 Listing Agent",
+    "2026-03 OpenClaw 电商客服/商品供应商2026.03.11.csv",
+    "2026-03 OpenClaw 电商客服/商品上架 (09_03_2026 10：12：07 pm).html",
+    "2026-03 OpenClaw 电商客服/前台-客服问答 Agent（Customer Service Agent） V2.html",
+    "2026-03 OpenClaw 电商客服/创建新的 Agent 工作区 ...  配置 Agent 人格（核心） ... 这些可以使用对话方式，让openclaw 自己去填写吗.png",
+    "2026-03 OpenClaw 电商客服/Copilot 创建个 问答专用 Agent.png",
+    "2026-03 OpenClaw 电商客服/law_2026-03-09_193953.png",
+    "2026-3 OpenClaw 电商客服/我的飞书已经可以和openclaw 对话了.png",
+    "2026-3 OpenClaw 电商客服/创建新的 Agent 工作区 ...  配置 Agent 人格（核心） ... 这些可以使用对话方式，让openclaw 自己去填写吗.png",
+    "2026-3 OpenClaw 电商客服/Copilot 创建个 问答专用 Agent.png",
+    "2026-3 OpenClaw 电商客服/law_2026-03-09_193953.png",
+    "OpenClaw 电商客服/我的飞书已经可以和openclaw 对话了.png",
     "Claude Code 今天上线了“btw”命令.canvas",
     "未命名 1.canvas",
     "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.canvas"

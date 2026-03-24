@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "学习路线",
+      "path": "2026-03 自然语音转换空调设置命令/学习路线.md"
+    },
+    {
+      "basename": "2026-03 自然语音转换空调设置命令",
+      "path": "2026-03 自然语音转换空调设置命令/2026-03 自然语音转换空调设置命令.md"
+    },
+    {
+      "basename": "中转站使用 vps 转发的",
+      "path": "中转站使用 vps 转发的.md"
+    },
+    {
+      "basename": "一个超实用的决策公式——EKB算法",
+      "path": "一个超实用的决策公式——EKB算法.md"
+    },
+    {
       "basename": "嵌入式行业AI进阶学习建议",
       "path": "AI 赋能嵌入式开发专家/嵌入式行业AI进阶学习建议.md"
     },
@@ -25,14 +41,6 @@
       "path": "AI 赋能嵌入式开发专家/微信公众号信息过载管理方法.md"
     },
     {
-      "basename": "中转站使用 vps 转发的",
-      "path": "中转站使用 vps 转发的.md"
-    },
-    {
-      "basename": "STM32Cube.AI和TFLite Micro在部署LSTM模型时的主要性能差异有哪些？",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/STM32Cube.AI和TFLite Micro在部署LSTM模型时的主要性能差异有哪些？.md"
-    },
-    {
       "basename": "@醍醐灌顶但又胸口发闷",
       "path": "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md"
     },
@@ -41,56 +49,8 @@
       "path": "AI Agent开发工程师和传统软件工程师在技能要求上最主要的区别是什么？.md"
     },
     {
-      "basename": "2026-03 自然语音转换空调设置命令",
-      "path": "2026-03 自然语音转换空调设置命令/2026-03 自然语音转换空调设置命令.md"
-    },
-    {
       "basename": "帮我定制点 边缘AI的学习路线",
       "path": "AI 赋能嵌入式开发专家/帮我定制点 边缘AI的学习路线.md"
-    },
-    {
-      "basename": "这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/这一整组（LSTM  GRU、小 1D CNN、特征维度 20) 在 STM32H563 上是“工程可行且已有成熟先例”.md"
-    },
-    {
-      "basename": "一条“从现在的 H563 → 将来 N6”的自然演进路线",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/一条“从现在的 H563 → 将来 N6”的自然演进路线.md"
-    },
-    {
-      "basename": "一个超实用的决策公式——EKB算法",
-      "path": "一个超实用的决策公式——EKB算法.md"
-    },
-    {
-      "basename": "Edge‑AI MVP 技术规格 v1.0（STM32H563）",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/Edge‑AI MVP 技术规格 v1.0（STM32H563）.md"
-    },
-    {
-      "basename": "STM32H563 可跑的 LSTM 最小规格（MVP）",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/STM32H563 可跑的 LSTM 最小规格（MVP）.md"
-    },
-    {
-      "basename": "一颗 STM32H563 完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/一颗 STM32H563 完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”.md"
-    },
-    {
-      "basename": "先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上.md"
-    },
-    {
-      "basename": "LSTM + TFLite + CMSIS‑NN 完全可以做出一个“工程级 MVP”",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/LSTM + TFLite + CMSIS‑NN 完全可以做出一个“工程级 MVP”.md"
-    },
-    {
-      "basename": "LSTM 是“用来判断一段时间内信号走势会不会失控”的算法",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/LSTM 是“用来判断一段时间内信号走势会不会失控”的算法.md"
-    },
-    {
-      "basename": "想想实现路径",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/想想实现路径.md"
-    },
-    {
-      "basename": "帮我画一张系统架构图",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md"
     },
     {
       "basename": "讲透普通人如何建立“个人垄断”，这篇短文是我今年看过的 TOP 1",

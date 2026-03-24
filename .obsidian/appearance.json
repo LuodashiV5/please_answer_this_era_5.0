@@ -1,7 +1,7 @@
 {
   "textFontFamily": "Sarasa Gothic SC,Sarasa Fixed HC",
   "baseFontSizeAction": true,
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "monospaceFontFamily": "Fira Code Retina,Source Han Serif SC",
   "cssTheme": "",
   "enabledCssSnippets": [
