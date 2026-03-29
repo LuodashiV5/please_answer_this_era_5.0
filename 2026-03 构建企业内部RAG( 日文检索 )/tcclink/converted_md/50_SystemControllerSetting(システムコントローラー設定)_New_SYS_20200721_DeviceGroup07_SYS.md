@@ -1,0 +1,30 @@
+# Source: 50_SystemControllerSetting(システムコントローラー設定)_New_SYS_20200721.xls
+
+## Sheet: コマンド
+
+| Unnamed: 1   | Unnamed: 2                                        | Unnamed: 3                          | Unnamed: 4   | Unnamed: 5    | Unnamed: 6   | Unnamed: 7   | Unnamed: 8   | Unnamed: 9   | Unnamed: 10   | Unnamed: 11   |
+|:-------------|:--------------------------------------------------|:------------------------------------|:-------------|:--------------|:-------------|:-------------|:-------------|:-------------|:--------------|:--------------|
+| コマンドコード      | 50                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| 機能           | プライマリーコントローラー等当該ネットワークの親機が各セカンダリーコントローラーに制御を実施する。 | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| 機能           | nan                                               | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          |               | nan           |
+| nan          | nan                                               | b7                                  | b6           | b5            | b4           | b3           | b2           | b1           | b0            | 備考            |
+| nan          | -                                                 | コマンド                                | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | nan                                               | 50                                  | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D0                                                | システムコントローラー操作禁止設定マスク(禁止設定を有効にするマスク) | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | nan                                               | 予備                                  | 換気禁止マスク      | 運転停止(停止は可)マスク | 風速禁止マスク      | フラップ禁止マスク    | 設定温度禁止マスク    | 運転モード禁止マスク   | 運転/停止両禁止マスク   | nan           |
+| nan          | D1                                                | システムコントローラー操作禁止設定                   | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | nan                                               | 予備                                  | 換気禁止         | 運転停止(停止は可)    | 風速禁止         | フラップ禁止       | 設定温度禁止       | 運転モード禁止      | 運転/停止両禁止      | nan           |
+| nan          | D2                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D3                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D4                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D5                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D6                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D7                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D8                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D9                                                | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D10                                               | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D11                                               | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D12                                               | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D13                                               | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D14                                               | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |
+| nan          | D15                                               | nan                                 | nan          | nan           | nan          | nan          | nan          | nan          | nan           | nan           |

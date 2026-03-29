@@ -1,0 +1,74 @@
+# Source: 70_43_ServiceData_New_Common_20201013.xls
+
+## Sheet: 変更履歴
+
+| Unnamed: 1   | Unnamed: 2          | Unnamed: 3   | Unnamed: 4     | Unnamed: 5   | Unnamed: 6                                                                                   | Unnamed: 7   |
+|:-------------|:--------------------|:-------------|:---------------|:-------------|:---------------------------------------------------------------------------------------------|:-------------|
+| 来歴           | 年月日                 | 記入者          | 種類             | 変更データ位置      | 変更内容                                                                                         | 備考           |
+| 1            | 2020-09-18 00:00:00 | (S設) 櫻井      | 70_33_Response | D1～D12       | ・DNコード誤りの削除                                                                                  | nan          |
+|              |                     |              |                |              | ・「※Uvラインが新通信時のみ有効」の追記                                                                        |              |
+| nan          | 2020-09-18 00:00:00 | (S設) 櫻井      | 70_33_Response | D20～D24      | ・「本NoticeCode1～5は室内DNでフィルタリングされていないCodeとする。※室内DNでフィルタリングしたNoticeCodeを取得する場合、2Eコマンドで取得する。」の追記 | nan          |
+
+## Sheet: 70_43_Request
+
+| Unnamed: 1   | Unnamed: 2                  | Unnamed: 3   | Unnamed: 4   | Unnamed: 5   | Unnamed: 6   | Unnamed: 7   | Unnamed: 8   | Unnamed: 9   | Unnamed: 10      | Unnamed: 11   | Unnamed: 12   | Unnamed: 13   |
+|:-------------|:----------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-----------------|:--------------|:--------------|:--------------|
+| コマンド         | 70                          | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan              | nan           | nan           | nan           |
+| サブコマンド       | 43                          | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan              | nan           | nan           | nan           |
+| 機能           | サービスデータ　VRF/LC 室内ユニットの拡張情報２ | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan              | nan           | nan           | nan           |
+| nan          | 10分周期で収集することを前提             | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan              | nan           | nan           | nan           |
+| nan          | nan                         | b7           | b6           | b5           | b4           | b3           | b2           | b1           | b0               | 旧データ 70 DN    | 新データ 70 DN    | 備考            |
+| nan          | CMD                         | コマンド         | nan          | nan          | nan          | nan          | nan          | nan          | nan              | -             | -             | nan           |
+| nan          | nan                         | 70           | nan          | nan          | nan          | nan          | nan          | nan          | nan              | -             | -             | nan           |
+| nan          | D0                          | サブコマンド       | nan          | nan          | nan          | nan          | nan          | nan          | nan              | -             | -             | nan           |
+| nan          | nan                         | 43           | nan          | nan          | nan          | nan          | nan          | nan          | nan              | -             | -             | nan           |
+| nan          | D1                          | nan          | nan          | nan          | nan          | nan          | nan          | nan          | ｼｽﾃﾑｺﾝﾄﾛｰﾗ接続ありなし | -             | -             | nan           |
+| nan          | nan                         | nan          | nan          | nan          | nan          | nan          | nan          | nan          | 0:なし、1:あり        | -             | -             | nan           |
+| nan          | D2                          | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan              | nan           | nan           | nan           |
+
+## Sheet: 70_43_Response
+
+| Unnamed: 1   | Unnamed: 2                  | Unnamed: 3                       | Unnamed: 4   | Unnamed: 5   | Unnamed: 6   | Unnamed: 7   | Unnamed: 8   | Unnamed: 9   | Unnamed: 10   | Unnamed: 11   | Unnamed: 12   | Unnamed: 13   |
+|:-------------|:----------------------------|:---------------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:--------------|:--------------|:--------------|:--------------|
+| コマンド         | 70                          | nan                              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| サブコマンド       | 43                          | nan                              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| 機能           | サービスデータ　VRF/LC 室内ユニットの拡張情報２ | nan                              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | 10分周期で収集することを前提             | nan                              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | nan                         | b7                               | b6           | b5           | b4           | b3           | b2           | b1           | b0            | 旧データ 70 DN    | 新データ 70 DN    | 備考            |
+| nan          | CMD                         | コマンド                             | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | nan                         | 70                               | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D0                          | サブコマンド                           | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | nan                         | 43                               | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D1                          | 各種積算時間　詳細ﾏｲｺﾝ通電時間(予約)            | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D2                          | 各種積算時間　詳細ﾏｲｺﾝ通電時間(1Byte目)        | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D3                          | 各種積算時間　詳細ﾏｲｺﾝ通電時間(2Byte目)        | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D4                          | 各種積算時間　詳細ﾏｲｺﾝ通電時間(3Byte目)        | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D5                          | 各種積算時間　詳細給湯運転積算時間(予約)            | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D6                          | 各種積算時間　詳細給湯運転積算時間(予約)            | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D7                          | 各種積算時間　詳細給湯運転積算時間(1Byte目)        | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D8                          | 各種積算時間　詳細給湯運転積算時間(2Byte目)        | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D9                          | 各種積算時間　詳細冷房(サーモON)運転積算時間(予約)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D10                         | 各種積算時間　詳細冷房(サーモON)運転積算時間(予約)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D11                         | 各種積算時間　詳細冷房(サーモON)運転積算時間(1Byte目) | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D12                         | 各種積算時間　詳細冷房(サーモON)運転積算時間(2Byte目) | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D13                         | 各種積算時間　詳細暖房(サーモON)運転積算時間(予約)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D14                         | 各種積算時間　詳細暖房(サーモON)運転積算時間(予約)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D15                         | 各種積算時間　詳細暖房(サーモON)運転積算時間(1Byte目) | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D16                         | 各種積算時間　詳細暖房(サーモON)運転積算時間(2Byte目) | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D17                         | 各種積算時間　詳細ポンプ1ON積算時間(予約)          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D18                         | 各種積算時間　詳細ポンプ1ON積算時間(予約)          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D19                         | 各種積算時間　詳細ポンプ1ON積算時間(1Byte目)      | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D20                         | 各種積算時間　詳細ポンプ1ON積算時間(2Byte目)      | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D21                         | 各種積算時間　詳細給湯ヒータ運転積算時間(予約)         | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D22                         | 各種積算時間　詳細給湯ヒータ運転積算時間(予約)         | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D23                         | 各種積算時間　詳細給湯ヒータ運転積算時間(1Byte目)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D24                         | 各種積算時間　詳細給湯ヒータ運転積算時間(2Byte目)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D25                         | 各種積算時間　詳細Hydro内ヒータ運転積算時間(予約)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D26                         | 各種積算時間　詳細Hydro内ヒータ運転積算時間(予約)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D27                         | 各種積算時間　詳細Hydro内ヒータ運転積算時間(1Byte目) | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D28                         | 各種積算時間　詳細Hydro内ヒータ運転積算時間(2Byte目) | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D29                         | 各種積算時間　詳細外部ヒータ運転積算時間(予約)         | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D30                         | 各種積算時間　詳細外部ヒータ運転積算時間(予約)         | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D31                         | 各種積算時間　詳細外部ヒータ運転積算時間(1Byte目)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D32                         | 各種積算時間　詳細外部ヒータ運転積算時間(2Byte目)     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | D33                         | 室内機能力                            | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |

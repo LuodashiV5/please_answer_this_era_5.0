@@ -1,0 +1,118 @@
+# Source: C2_PrimaryODN(主要室外ユニットDN)_New_VRFLC_20210715.xls
+
+## Sheet: 改訂履歴
+
+| Unnamed: 1   | Unnamed: 2          | Unnamed: 3   | Unnamed: 4                        |
+|:-------------|:--------------------|:-------------|:----------------------------------|
+| ＜変更履歴＞       | nan                 | nan          | nan                               |
+| No.          | 変更日                 | 変更者          | 変更内容                              |
+| 1            | 2021-07-15 00:00:00 | (S設)櫻井       | 第4回TCC-LINK仕様検討会にて指摘修正(2021/7/15) |
+|              |                     |              | DN[1E][1F]の名称と機能が逆だったため入れ替え       |
+| 2            | nan                 | nan          | nan                               |
+| 3            | nan                 | nan          | nan                               |
+| 4            | nan                 | nan          | nan                               |
+| 5            | nan                 | nan          | nan                               |
+
+## Sheet: C2_Request
+
+| Unnamed: 1   | Unnamed: 2                                          | Unnamed: 3   | Unnamed: 4   | Unnamed: 5   | Unnamed: 6   | Unnamed: 7   | Unnamed: 8   | Unnamed: 9   | Unnamed: 10   | Unnamed: 11   | Unnamed: 12   | Unnamed: 13   |
+|:-------------|:----------------------------------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:--------------|:--------------|:--------------|:--------------|
+| コマンドコード      | C2                                                  | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| グループNo.      | nan                                                 | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| 機能           | 「省エネ機能に関するDN項目」「系統連携に関するDN項目」を一括で設定取得、設定変更するためのコマンド | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | C2_Responseを受信するために本コマンドにて要求する                      | nan          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan           |
+| nan          | nan                                                 | b7           | b6           | b5           | b4           | b3           | b2           | b1           | b0            | 旧データ 70 DN    | 新データ 70 DN    | 備考            |
+| nan          | -                                                   | コマンド         | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | nan           |
+| nan          | nan                                                 | C2           | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | nan           |
+
+## Sheet: C2_Response
+
+| Unnamed: 1   | Unnamed: 2                                          | Unnamed: 3                            | Unnamed: 4   | Unnamed: 5   | Unnamed: 6   | Unnamed: 7   | Unnamed: 8   | Unnamed: 9   | Unnamed: 10   | Unnamed: 11   | Unnamed: 12   | Unnamed: 13                            |
+|:-------------|:----------------------------------------------------|:--------------------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:--------------|:--------------|:--------------|:---------------------------------------|
+| コマンドコード      | C2                                                  | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                                    |
+| グループNo.      | nan                                                 | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                                    |
+| 機能           | 「省エネ機能に関するDN項目」「系統連携に関するDN項目」を一括で設定取得、設定変更するためのコマンド | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                                    |
+| nan          | C2_Requestに対して本コマンドで応答する。                           | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                                    |
+| nan          | nan                                                 | b7                                    | b6           | b5           | b4           | b3           | b2           | b1           | b0            | 旧データ 70 DN    | 新データ 70 DN    | 備考                                     |
+| nan          | -                                                   | コマンド                                  | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | nan                                    |
+| nan          | nan                                                 | C2                                    | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | nan                                    |
+| nan          | D0                                                  | DNコード項目有無(Data01～Data08)              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | LSBでbitごとにDN有無を表現。                     |
+| nan          | nan                                                 | Data08                                | Data07       | Data06       | Data05       | Data04       | Data03       | Data02       | Data01        | nan           | nan           | 0:なし、1:あり                              |
+| nan          | D1                                                  | 機種設定(DN03) Data01                     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | 0～：機種番号                                |
+| nan          | D2                                                  | 運転モード選択動作切換(DN08) Data02              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0:非優先側非優先方式／1:非優先側運転モード強制変更方式          |
+| nan          | D3                                                  | 系統連携除霜用 主機／従機設定(DN1D) Data03          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | ０：従機（コントローラモード）／１：空き／２～３：主機            |
+| nan          | D4                                                  | 系統連携除霜 室外ゾーン（グループ）アドレス(DN1E) Data04   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0：未設定／1～127：ゾーンアドレス                    |
+| nan          | D5                                                  | 系統連携除霜　アドレス(DN1F) Data05              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0：未設定／1～3：系統連携除霜アドレス                   |
+| nan          | D6                                                  | 室内セーブ運転信号受信時の該当室内の要求指令上限(DN17) Data06 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0:50%／1:60%                            |
+| nan          | D7                                                  | 能力デマンド／電力デマンド切換え(DN09) Data07         | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0:能力デマンド／1:電力デマンド                      |
+| nan          | D8                                                  | 定格消費電力値_暖房（電力デマンド用）1(DN0A) Data08     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0~99（10の位、1の位を表す）                      |
+| nan          | nan                                                 | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | ※電力値（xx.yy[kW]）の整数部（xx）                |
+| nan          | D9                                                  | DNコード項目有無(Data09～Data16)              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                                    |
+| nan          | nan                                                 | Data16                                | Data15       | Data14       | Data13       | Data12       | Data11       | Data10       | Data09        | nan           | nan           | nan                                    |
+| nan          | D10                                                 | 定格消費電力値_暖房（電力デマンド用）2(DN0B) Data09     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0.00~0.99　（0.1の位、0.01の位を表す）            |
+| nan          | nan                                                 | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | ※電力値（xx.yy[kW]）の小数部（yy）                |
+| nan          | D11                                                 | 定格消費電力値_冷房（電力デマンド用）1(DN0C) Data10     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0~99（10の位、1の位を表す）                      |
+| nan          | nan                                                 | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | ※電力値（xx.yy[kW]）の整数部（xx）                |
+| nan          | D12                                                 | 定格消費電力値_冷房（電力デマンド用）2(DN0D) Data11     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0.00~0.99　（0.1の位、0.01の位を表す）            |
+| nan          | nan                                                 | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | ※電力値（xx.yy[kW]）の小数部（yy）                |
+| nan          | D13                                                 | デマンド設定値１(DN0E) Data12                 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0=FREE／1=100%／2=95%／・・・11～14=50%／15=0% |
+| nan          | D14                                                 | デマンド設定値２(DN0F) Data13                 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0=FREE／1=100%／2=95%／・・・11～14=50%／15=0% |
+| nan          | D15                                                 | デマンド設定値３(DN10) Data14                 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0=FREE／1=100%／2=95%／・・・11～14=50%／15=0% |
+
+## Sheet: C2_Set
+
+| Unnamed: 1   | Unnamed: 2                                       | Unnamed: 3                            | Unnamed: 4   | Unnamed: 5   | Unnamed: 6   | Unnamed: 7   | Unnamed: 8   | Unnamed: 9   | Unnamed: 10   | Unnamed: 11   | Unnamed: 12   | Unnamed: 13                       |
+|:-------------|:-------------------------------------------------|:--------------------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:--------------|:--------------|:--------------|:----------------------------------|
+| コマンドコード      | C2                                               | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| グループNo.      | nan                                              | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| 機能           | システムコントローラーからのSetに対して、室外ユニットはAck,Nack,Busyで応答する。 | nan                                   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | nan                                              | b7                                    | b6           | b5           | b4           | b3           | b2           | b1           | b0            | 旧データ 70 DN    | 新データ 70 DN    | 備考                                |
+| nan          | -                                                | コマンド                                  | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | nan                               |
+| nan          | nan                                              | C2                                    | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | nan                               |
+| nan          | D0                                               | DNコード項目マスク(Data01～Data08)             | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | LSBでbitごとにDNマスクする/しないを表現。         |
+| nan          | nan                                              | Data08                                | Data07       | Data06       | Data05       | Data04       | Data03       | Data02       | Data01        | nan           | nan           | 0:マスクする(DN設定しない)、1:マスクしない(DN設定する) |
+| nan          | D1                                               | 機種設定(DN03) Data01                     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | -             | -             | nan                               |
+| nan          | D2                                               | 運転モード選択動作切換(DN08) Data02              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D3                                               | 系統連携除霜用 主機／従機設定(DN1D) Data03          | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D4                                               | 系統連携除霜 室外ゾーン（グループ）アドレス(DN1E) Data04   | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0：未設定／1～127：ゾーンアドレス               |
+| nan          | D5                                               | 系統連携除霜　アドレス(DN1F) Data05              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | 0：未設定／1～3：系統連携除霜アドレス              |
+| nan          | D6                                               | 室内セーブ運転信号受信時の該当室内の要求指令上限(DN17) Data06 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D7                                               | 能力デマンド／電力デマンド切換え(DN09) Data07         | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D8                                               | 定格消費電力値_暖房（電力デマンド用）1(DN0A) Data08     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D9                                               | DNコード項目有無(Data09～Data16)              | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | nan                                              | Data16                                | Data15       | Data14       | Data13       | Data12       | Data11       | Data10       | Data09        | nan           | nan           | nan                               |
+| nan          | D10                                              | 定格消費電力値_暖房（電力デマンド用）2(DN0B) Data09     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D11                                              | 定格消費電力値_冷房（電力デマンド用）1(DN0C) Data10     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D12                                              | 定格消費電力値_冷房（電力デマンド用）2(DN0D) Data11     | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D13                                              | デマンド設定値１(DN0E) Data12                 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D14                                              | デマンド設定値２(DN0F) Data13                 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+| nan          | D15                                              | デマンド設定値３(DN10) Data14                 | nan          | nan          | nan          | nan          | nan          | nan          | nan           | nan           | nan           | nan                               |
+
+## Sheet: C2_制御仕様
+
+| Unnamed: 4   | Unnamed: 5       | Unnamed: 8   | Unnamed: 9   | Unnamed: 11                                                        | Unnamed: 12   |
+|:-------------|:-----------------|:-------------|:-------------|:-------------------------------------------------------------------|:--------------|
+| システムコントローラー  | nan              | nan          | 室外ユニット       | 室外ユニット動作                                                           | nan           |
+| nan          | C2_Request       | nan          | nan          | nan                                                                | nan           |
+| nan          | nan              | C2_Response  | nan          | nan                                                                | nan           |
+| nan          | C2_Set           | nan          | nan          | nan                                                                | nan           |
+| nan          | nan              | nan          | nan          | ①システム停止(61コマンド受信と同じ)                                               | nan           |
+| nan          | nan              | A1(Ack)      | nan          | ②DNセット                                                             | nan           |
+| nan          | nan              | nan          | nan          | ※DNコードの中に、当該ソフトには存在しないDNコードがある場合、存在する(適用できる)DNコードのみ適用し、ACKを返す。     | nan           |
+| nan          | nan              | nan          | nan          | (一部DNコードを持たない機種も想定されるが、その機種に本コマンドが使用できなくなることを避けるため)                | nan           |
+| nan          | nan              | nan          | nan          | nan                                                                | 実施／未実施は機器による  |
+| nan          | C2_Request       | nan          | nan          | nan                                                                | nan           |
+| nan          | nan              | nan          | nan          | ※送信した内容が正しく設定されていることを確認する場合は、                                      | nan           |
+| nan          | nan              | C2_Response  | nan          | ここでC2_Requestを実施し、必要に応じ、再度C2_Setを送信                                | nan           |
+| nan          | nan              | nan          | nan          | ※存在しないDNコードのデータは"00"として応答する。                                       | nan           |
+| nan          | C2_Set           | nan          | nan          | nan                                                                | nan           |
+| nan          | nan              | nan          | nan          | ①システム停止(61コマンド受信と同じ)                                               | nan           |
+| nan          | nan              | A1(Ack)      | nan          | ②DNセット                                                             | nan           |
+| nan          | 62_Set(システムリセット) | nan          | nan          | nan                                                                | nan           |
+| nan          | nan              | nan          | nan          | ③62_Set(システムリセット)送信後、1000ｍ秒後にリセット                                  | nan           |
+| nan          | nan              | nan          | nan          | ※62_Set(システムリセット)をブロードキャストで送信する場合、Ack輻輳による衝突を回避するため、レスポンスなしで送信すること | nan           |
+| nan          | nan              | A1(Ack)      | nan          | ※通常、62_Setコマンドを受信し、再起動するが、通信途絶などで受信しない場合を考慮し、                      | nan           |
+| nan          | nan              | nan          | nan          | 室外ユニットでC2_Set受信後、10分以内に62_Setコマンドを受信しない場合、室外ユニット自身で再起動する。          | nan           |
+| nan          | 62_Set(システムリセット) | nan          | nan          | nan                                                                | nan           |
+| nan          | nan              | nan          | nan          | ※対象の室外ユニットがターミナル機の場合は、ターミナル機のシステムリセットを実行後、センター機のシステムリセットを実行        | nan           |
+| nan          | nan              | A1(Ack)      | nan          | nan                                                                | nan           |
