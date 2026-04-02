@@ -1,6 +1,114 @@
 {
   "recentFiles": [
     {
+      "basename": "小龙虾 13000 个 skills，用这些就够了！小龙虾 完全指南第二篇",
+      "path": "小龙虾 13000 个 skills，用这些就够了！小龙虾 完全指南第二篇.md"
+    },
+    {
+      "basename": "告别重复劳动：如何用Skill Creator把工作流变成可复用技能 （账号分析skill分享）",
+      "path": "告别重复劳动：如何用Skill Creator把工作流变成可复用技能 （账号分析skill分享）.md"
+    },
+    {
+      "basename": "law_2026-03-10_230813",
+      "path": "law_2026-03-10_230813.png"
+    },
+    {
+      "basename": "vscode+opencode+draw.io用自然语言就能轻松画架构图",
+      "path": "vscode+opencode+draw.io用自然语言就能轻松画架构图.md"
+    },
+    {
+      "basename": "为什么 小龙虾 在国内其实并不好玩？",
+      "path": "为什么 小龙虾 在国内其实并不好玩？.md"
+    },
+    {
+      "basename": "2026.03.18  日志",
+      "path": "2026.03.18  日志.md"
+    },
+    {
+      "basename": "Obsidian  的双链链接",
+      "path": "Obsidian  的双链链接.md"
+    },
+    {
+      "basename": "2026-03-25_comm_raw",
+      "path": "2026-03-25_comm_raw.md"
+    },
+    {
+      "basename": "2026-03-25_comm_notes",
+      "path": "2026-03-25_comm_notes.md"
+    },
+    {
+      "basename": "2026 Week 14 从你这里学会了哪些知识或技能",
+      "path": "2026 Week 14 从你这里学会了哪些知识或技能.md"
+    },
+    {
+      "basename": "2026年第9周 工作周报",
+      "path": "2026年第9周 工作周报.md"
+    },
+    {
+      "basename": "2026年03月13 成功在本地部署了 Dify AI 应用开发平台，并解决了关键的网络配置问题，最终实现了正常访问",
+      "path": "2026年03月13 成功在本地部署了 Dify AI 应用开发平台，并解决了关键的网络配置问题，最终实现了正常访问.md"
+    },
+    {
+      "basename": "2026年03月15 Dify 的“表层操作”到“底层数据流机制”的深度剖析",
+      "path": "2026年03月15 Dify 的“表层操作”到“底层数据流机制”的深度剖析.md"
+    },
+    {
+      "basename": "What Is a Polar Vortex Weather System",
+      "path": "What Is a Polar Vortex Weather System.md"
+    },
+    {
+      "basename": "typora 里 [!NOTE]  怎么正确使用？",
+      "path": "typora 里 [!NOTE]  怎么正确使用？.md"
+    },
+    {
+      "basename": "MD500E_FOC控制详细报告",
+      "path": "2026-04 电机VFD/MD500E_FOC控制详细报告.md"
+    },
+    {
+      "basename": "反电动势（Back-EMF）确实是电机控制（尤其是永磁同步电机）的基石",
+      "path": "2026-04 电机VFD/反电动势（Back-EMF）确实是电机控制（尤其是永磁同步电机）的基石.md"
+    },
+    {
+      "basename": "SpeedEst 帮我解释下这个函数，我初入行",
+      "path": "SpeedEst 帮我解释下这个函数，我初入行.md"
+    },
+    {
+      "basename": "嵌入式行业AI进阶学习建议",
+      "path": "AI 赋能嵌入式开发专家/嵌入式行业AI进阶学习建议.md"
+    },
+    {
+      "basename": "@醍醐灌顶但又胸口发闷",
+      "path": "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md"
+    },
+    {
+      "basename": "帮我画一张系统架构图",
+      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md"
+    },
+    {
+      "basename": "想想实现路径",
+      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/想想实现路径.md"
+    },
+    {
+      "basename": "我去，看了一下LSTM 原理的讲解，一直犯困 。。。",
+      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/我去，看了一下LSTM 原理的讲解，一直犯困 。。。.md"
+    },
+    {
+      "basename": "LLM 在“编程领域看起来几乎 100% 可用”",
+      "path": "AI 赋能嵌入式开发专家/LLM 在“编程领域看起来几乎 100% 可用”.md"
+    },
+    {
+      "basename": "2026年程序员如何转型AI大模型应用开发？",
+      "path": "AI 赋能嵌入式开发专家/2026年程序员如何转型AI大模型应用开发？.md"
+    },
+    {
+      "basename": "帮我定制点 边缘AI的学习路线",
+      "path": "AI 赋能嵌入式开发专家/帮我定制点 边缘AI的学习路线.md"
+    },
+    {
+      "basename": "微信公众号信息过载管理方法",
+      "path": "AI 赋能嵌入式开发专家/微信公众号信息过载管理方法.md"
+    },
+    {
       "basename": "中转站使用 vps 转发的",
       "path": "中转站使用 vps 转发的.md"
     },
@@ -21,40 +129,16 @@
       "path": "一个超实用的决策公式——EKB算法.md"
     },
     {
-      "basename": "嵌入式行业AI进阶学习建议",
-      "path": "AI 赋能嵌入式开发专家/嵌入式行业AI进阶学习建议.md"
-    },
-    {
       "basename": "章工@435赫兹 芯片之家",
       "path": "AI 赋能嵌入式开发专家/章工@435赫兹 芯片之家.md"
-    },
-    {
-      "basename": "2026年程序员如何转型AI大模型应用开发？",
-      "path": "AI 赋能嵌入式开发专家/2026年程序员如何转型AI大模型应用开发？.md"
     },
     {
       "basename": "AI 时代工程师的价值重塑",
       "path": "AI 赋能嵌入式开发专家/AI 时代工程师的价值重塑.md"
     },
     {
-      "basename": "LLM 在“编程领域看起来几乎 100% 可用”",
-      "path": "AI 赋能嵌入式开发专家/LLM 在“编程领域看起来几乎 100% 可用”.md"
-    },
-    {
-      "basename": "微信公众号信息过载管理方法",
-      "path": "AI 赋能嵌入式开发专家/微信公众号信息过载管理方法.md"
-    },
-    {
-      "basename": "@醍醐灌顶但又胸口发闷",
-      "path": "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md"
-    },
-    {
       "basename": "AI Agent开发工程师和传统软件工程师在技能要求上最主要的区别是什么？",
       "path": "AI Agent开发工程师和传统软件工程师在技能要求上最主要的区别是什么？.md"
-    },
-    {
-      "basename": "帮我定制点 边缘AI的学习路线",
-      "path": "AI 赋能嵌入式开发专家/帮我定制点 边缘AI的学习路线.md"
     },
     {
       "basename": "讲透普通人如何建立“个人垄断”，这篇短文是我今年看过的 TOP 1",
@@ -113,24 +197,8 @@
       "path": "神经募集能力与肌肉生长的关系.md"
     },
     {
-      "basename": "Obsidian  的双链链接",
-      "path": "Obsidian  的双链链接.md"
-    },
-    {
-      "basename": "为什么 小龙虾 在国内其实并不好玩？",
-      "path": "为什么 小龙虾 在国内其实并不好玩？.md"
-    },
-    {
       "basename": "程序员提升生产力的AI技能应用",
       "path": "程序员提升生产力的AI技能应用.md"
-    },
-    {
-      "basename": "回复 P20",
-      "path": "回复 P20.md"
-    },
-    {
-      "basename": "Copilot Test Case Gen Agent",
-      "path": "Copilot Test Case Gen Agent.md"
     }
   ],
   "omittedPaths": [],
