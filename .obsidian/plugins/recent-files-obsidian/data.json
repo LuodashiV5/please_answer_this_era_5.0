@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上",
+      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上.md"
+    },
+    {
+      "basename": "帮我画一张系统架构图",
+      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md"
+    },
+    {
+      "basename": "看看【相说的作品】责任心强的人如何在草台班子中生存",
+      "path": "看看【相说的作品】责任心强的人如何在草台班子中生存.md"
+    },
+    {
+      "basename": "泰勒公式展开",
+      "path": "泰勒公式展开.md"
+    },
+    {
+      "basename": "FFT 原理与应用新手指南",
+      "path": "FFT 原理与应用新手指南.md"
+    },
+    {
+      "basename": "卷积在多领域的应用研究",
+      "path": "卷积在多领域的应用研究.md"
+    },
+    {
+      "basename": "VFD 绕组线圈的电感，是会随着温度变化的？",
+      "path": "VFD 绕组线圈的电感，是会随着温度变化的？.md"
+    },
+    {
+      "basename": "Zephyr OS 学习计划制定",
+      "path": "Zephyr OS 学习计划制定.md"
+    },
+    {
+      "basename": "大龄程序员中年失业，告别传统代码，我在大模型新赛道里，找到了中年技术人的出路",
+      "path": "大龄程序员中年失业，告别传统代码，我在大模型新赛道里，找到了中年技术人的出路.md"
+    },
+    {
+      "basename": "一人公司 × AI：这是普通程序员弯道超车的最后机会 —— AI 时代你必须做的 20 件事",
+      "path": "一人公司 × AI：这是普通程序员弯道超车的最后机会 —— AI 时代你必须做的 20 件事.md"
+    },
+    {
+      "basename": "20个黄金指令：把 NotebookLM 调教成你的顶级数字大脑",
+      "path": "20个黄金指令：把 NotebookLM 调教成你的顶级数字大脑.md"
+    },
+    {
+      "basename": "安全和密码学",
+      "path": "安全和密码学.md"
+    },
+    {
+      "basename": "MIT最被低估的课程：学完这10小时，你的编程效率可能提升10倍",
+      "path": "MIT最被低估的课程：学完这10小时，你的编程效率可能提升10倍.md"
+    },
+    {
+      "basename": "Linux 设备树（Device Tree）机制解析",
+      "path": "Linux 设备树（Device Tree）机制解析.md"
+    },
+    {
+      "basename": "OpenDataLoader PDF：解析准确度第一，连公式和图表都能「读懂」",
+      "path": "OpenDataLoader PDF：解析准确度第一，连公式和图表都能「读懂」.md"
+    },
+    {
+      "basename": "反电动势（Back-EMF）确实是电机控制（尤其是永磁同步电机）的基石",
+      "path": "2026-04 电机VFD/反电动势（Back-EMF）确实是电机控制（尤其是永磁同步电机）的基石.md"
+    },
+    {
+      "basename": "近50岁的I2C总线，要升级成I3C？",
+      "path": "近50岁的I2C总线，要升级成I3C？.md"
+    },
+    {
+      "basename": "为何一般地都推荐使用互斥锁代替关中断？",
+      "path": "为何一般地都推荐使用互斥锁代替关中断？.md"
+    },
+    {
+      "basename": "你的代码好骚啊！你跟我说这是C语言最新C23标准，embed能嵌入二进制文件？",
+      "path": "你的代码好骚啊！你跟我说这是C语言最新C23标准，embed能嵌入二进制文件？.md"
+    },
+    {
+      "basename": "龙贝格观测器+PLL的实现比传统滑模观测安静多了  这三个知识点  帮我深度解释下",
+      "path": "2026-04 电机VFD/龙贝格观测器+PLL的实现比传统滑模观测安静多了  这三个知识点  帮我深度解释下.md"
+    },
+    {
+      "basename": "MD500E_FOC控制详细报告",
+      "path": "2026-04 电机VFD/MD500E_FOC控制详细报告.md"
+    },
+    {
+      "basename": "这个简单的 Obsidian + NotebookLM + Gemini 学习方法，让效率翻100倍",
+      "path": "AI 赋能嵌入式开发专家/这个简单的 Obsidian + NotebookLM + Gemini 学习方法，让效率翻100倍.md"
+    },
+    {
       "basename": "小龙虾 13000 个 skills，用这些就够了！小龙虾 完全指南第二篇",
       "path": "小龙虾 13000 个 skills，用这些就够了！小龙虾 完全指南第二篇.md"
     },
@@ -61,14 +149,6 @@
       "path": "typora 里 [!NOTE]  怎么正确使用？.md"
     },
     {
-      "basename": "MD500E_FOC控制详细报告",
-      "path": "2026-04 电机VFD/MD500E_FOC控制详细报告.md"
-    },
-    {
-      "basename": "反电动势（Back-EMF）确实是电机控制（尤其是永磁同步电机）的基石",
-      "path": "2026-04 电机VFD/反电动势（Back-EMF）确实是电机控制（尤其是永磁同步电机）的基石.md"
-    },
-    {
       "basename": "SpeedEst 帮我解释下这个函数，我初入行",
       "path": "SpeedEst 帮我解释下这个函数，我初入行.md"
     },
@@ -79,10 +159,6 @@
     {
       "basename": "@醍醐灌顶但又胸口发闷",
       "path": "AI 赋能嵌入式开发专家/@醍醐灌顶但又胸口发闷.md"
-    },
-    {
-      "basename": "帮我画一张系统架构图",
-      "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md"
     },
     {
       "basename": "想想实现路径",
@@ -123,82 +199,6 @@
     {
       "basename": "一颗 STM32H563 完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”",
       "path": "2026-04 用LLM预测磁悬浮轴承跌落路径/一颗 STM32H563 完全够你做“边缘 AI MVP（LSTM + TFLite + CMSIS‑NN）”.md"
-    },
-    {
-      "basename": "一个超实用的决策公式——EKB算法",
-      "path": "一个超实用的决策公式——EKB算法.md"
-    },
-    {
-      "basename": "章工@435赫兹 芯片之家",
-      "path": "AI 赋能嵌入式开发专家/章工@435赫兹 芯片之家.md"
-    },
-    {
-      "basename": "AI 时代工程师的价值重塑",
-      "path": "AI 赋能嵌入式开发专家/AI 时代工程师的价值重塑.md"
-    },
-    {
-      "basename": "AI Agent开发工程师和传统软件工程师在技能要求上最主要的区别是什么？",
-      "path": "AI Agent开发工程师和传统软件工程师在技能要求上最主要的区别是什么？.md"
-    },
-    {
-      "basename": "讲透普通人如何建立“个人垄断”，这篇短文是我今年看过的 TOP 1",
-      "path": "讲透普通人如何建立“个人垄断”，这篇短文是我今年看过的 TOP 1.md"
-    },
-    {
-      "basename": "2026年产品经理能力模型核心要点总结",
-      "path": "2026年产品经理能力模型核心要点总结.md"
-    },
-    {
-      "basename": "同样是网口，为什么EtherCat可以做到纳秒级同步，而普通以太网却不行？",
-      "path": "同样是网口，为什么EtherCat可以做到纳秒级同步，而普通以太网却不行？.md"
-    },
-    {
-      "basename": "Claude Code多智能体编排神器Ruflo开源",
-      "path": "Claude Code多智能体编排神器Ruflo开源.md"
-    },
-    {
-      "basename": "C语言规范里，喜欢用 typedef 隐藏指针",
-      "path": "C语言规范里，喜欢用 typedef 隐藏指针.md"
-    },
-    {
-      "basename": "Claude Code 今天上线了“btw”命令",
-      "path": "Claude Code 今天上线了“btw”命令.md"
-    },
-    {
-      "basename": "AI帮忙读论文——深度解析paper skill",
-      "path": "AI帮忙读论文——深度解析paper skill.md"
-    },
-    {
-      "basename": "ReAct",
-      "path": "ReAct.md"
-    },
-    {
-      "basename": "FreeRTOS 工程化要点：任务划分、优先级设计与 CPU 占用率监控",
-      "path": "FreeRTOS 工程化要点：任务划分、优先级设计与 CPU 占用率监控.md"
-    },
-    {
-      "basename": "OPC UA Client  这软件是什么行业的？ mcu 能用？",
-      "path": "OPC UA Client  这软件是什么行业的？ mcu 能用？.md"
-    },
-    {
-      "basename": "AI是如何工作的，MicroGPT将向你展示一个在浏览器中运行的极度精简模型运行过程",
-      "path": "AI是如何工作的，MicroGPT将向你展示一个在浏览器中运行的极度精简模型运行过程.md"
-    },
-    {
-      "basename": "让 小龙虾 更有趣，更新你的 soul",
-      "path": "让 小龙虾 更有趣，更新你的 soul.md"
-    },
-    {
-      "basename": "Sirius & MBC 实验室准入 & 调试一体化 Checklist",
-      "path": "Sirius & MBC 实验室准入 & 调试一体化 Checklist.md"
-    },
-    {
-      "basename": "神经募集能力与肌肉生长的关系",
-      "path": "神经募集能力与肌肉生长的关系.md"
-    },
-    {
-      "basename": "程序员提升生产力的AI技能应用",
-      "path": "程序员提升生产力的AI技能应用.md"
     }
   ],
   "omittedPaths": [],
