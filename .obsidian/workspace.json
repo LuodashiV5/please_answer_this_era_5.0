@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "1b37e6fd49ccc99a",
+        "id": "b52f22fa2baa22d1",
         "type": "tabs",
         "children": [
           {
-            "id": "bdb01a2a9d0b2088",
+            "id": "07e14369d71292e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04 用LLM预测磁悬浮轴承跌落路径/先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上.md",
+                "file": "VFD 绕组线圈的电感，是会随着温度变化的？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "先有 LSTM，再用 TFLite 把它装起来跑在 MCU 上"
+              "title": "VFD 绕组线圈的电感，是会随着温度变化的？"
+            }
+          },
+          {
+            "id": "c228abfb7ae34f7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI帮忙读论文——深度解析paper skill.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI帮忙读论文——深度解析paper skill"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,54 +257,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bdb01a2a9d0b2088",
+  "active": "c228abfb7ae34f7d",
   "lastOpenFiles": [
-    "费曼学习法/费曼学习法.webp",
-    "费曼学习法/费曼学习法 × AI = 学任何东西快3倍 (29_03_2026 3：39：28 pm).html",
-    "费曼学习法/费曼学习教练Agent设计.md",
-    "费曼学习法/费曼学习教练.md",
-    "费曼学习法/一条提示词让Claude秒变「私人导师」！全网疯传的费曼学习法，到底有多神？ (26_03_2026 11：34：17 pm).html",
-    "费曼学习法/费曼学习教练 -ENG.md",
-    "费曼学习法",
-    "2026-04 用LLM预测磁悬浮轴承跌落路径/帮我画一张系统架构图.md",
-    "看看【相说的作品】责任心强的人如何在草台班子中生存.md",
-    "泰勒公式展开.md",
-    "FFT 原理与应用新手指南.md",
-    "卷积在多领域的应用研究.md",
-    "VFD 绕组线圈的电感，是会随着温度变化的？.md",
-    "Zephyr OS 学习计划制定.md",
-    "assets/Pasted image 20260405122512.png",
-    "大龄程序员中年失业，告别传统代码，我在大模型新赛道里，找到了中年技术人的出路.md",
+    "ReAct.md",
+    "2026年产品经理能力模型核心要点总结.md",
+    "同样是网口，为什么EtherCat可以做到纳秒级同步，而普通以太网却不行？.md",
+    "一个超实用的决策公式——EKB算法.md",
+    "中转站使用 vps 转发的.md",
+    "2026-03-25_comm_raw.md",
+    "创建多文件模板代码生成Agent.md",
+    "为什么要用需求模型来描述软件需求？.md",
+    "2026.03.18  日志.md",
+    "AI Skill 的核心价值.md",
+    "为何一般地都推荐使用互斥锁代替关中断？.md",
+    "OpenDataLoader PDF：解析准确度第一，连公式和图表都能「读懂」.md",
+    "近50岁的I2C总线，要升级成I3C？.md",
+    "Linux 设备树（Device Tree）机制解析.md",
+    "MIT最被低估的课程：学完这10小时，你的编程效率可能提升10倍.md",
     "一人公司 × AI：这是普通程序员弯道超车的最后机会 —— AI 时代你必须做的 20 件事.md",
     "20个黄金指令：把 NotebookLM 调教成你的顶级数字大脑.md",
+    "VFD 绕组线圈的电感，是会随着温度变化的？.md",
+    "AI 赋能嵌入式开发专家/责任心强的人如何在草台班子中生存.md",
+    "磁悬浮控制器扫频畸变原因分析.md",
+    "bilibili-rag：把收藏夹变成可搜索、可追溯的知识库，收藏不再只是存着.md",
+    "AI 赋能嵌入式开发专家/中一条 说明公司已经想裁你了！.md",
+    "磁悬浮的位置传感器长时间运行突然信号变差.md",
+    "FFT 原理与应用新手指南.md",
+    "卷积在多领域的应用研究.md",
     "安全和密码学.md",
-    "MIT最被低估的课程：学完这10小时，你的编程效率可能提升10倍.md",
-    "Linux 设备树（Device Tree）机制解析.md",
-    "OpenDataLoader PDF：解析准确度第一，连公式和图表都能「读懂」.md",
-    "2026-04 电机VFD/反电动势（Back-EMF）确实是电机控制（尤其是永磁同步电机）的基石.md",
-    "近50岁的I2C总线，要升级成I3C？.md",
-    "为何一般地都推荐使用互斥锁代替关中断？.md",
-    "你的代码好骚啊！你跟我说这是C语言最新C23标准，embed能嵌入二进制文件？.md",
-    "2026-04 电机VFD/龙贝格观测器+PLL的实现比传统滑模观测安静多了  这三个知识点  帮我深度解释下.md",
-    "2026-04 电机VFD/MD500E_FOC控制详细报告.md",
-    "AI 赋能嵌入式开发专家/这个简单的 Obsidian + NotebookLM + Gemini 学习方法，让效率翻100倍.md",
-    "2026-04 电机VFD/电机在静止坐标系（α-β）下的状态方程.md",
-    "luoc3_2026-04-02_161053.png",
-    "law_2026-03-10_230813.png",
+    "assets/dc85502743b3a373c4d41a98fb59cdf4.jpg",
+    "assets/Pasted image 20260407214056.png",
+    "assets/Pasted image 20260407203538.png",
+    "assets/Pasted image 20260407203435.png",
+    "assets/Pasted image 20260407203326.png",
+    "assets/Pasted image 20260407203136.png",
+    "assets/Pasted image 20260407202757.png",
+    "assets/Pasted image 20260407202603.png",
+    "assets/Pasted image 20260407202016.png",
+    "assets/Pasted image 20260407201933.png",
+    "费曼学习法/费曼学习法 × AI = 学任何东西快3倍 (29_03_2026 3：39：28 pm).html",
+    "费曼学习法/一条提示词让Claude秒变「私人导师」！全网疯传的费曼学习法，到底有多神？ (26_03_2026 11：34：17 pm).html",
+    "费曼学习法",
     "2026年第14周 工作周报.txt",
     "2026-04 电机VFD",
     "codex_session_2026-03-25_004059.txt",
     "2026.1.11 Summary.txt",
-    "微信图片_2026-03-10_185222_713.jpg",
-    "#费曼学习法/费曼学习法.webp",
     "#费曼学习法/费曼学习法 × AI = 学任何东西快3倍 (29_03_2026 3：39：28 pm).html",
     "#费曼学习法/费曼学习法 × AI = 学任何东西快3倍 (26_03_2026 11：34：40 pm).html",
     "#费曼学习法/一条提示词让Claude秒变「私人导师」！全网疯传的费曼学习法，到底有多神？ (26_03_2026 11：34：17 pm).html",
-    "Obsidian+Claude搭建自媒体工作流/微信图片_2026-03-29_122010_156.png",
-    "Obsidian+Claude搭建自媒体工作流/微信图片_2026-03-29_122013_345.png",
-    "Obsidian+Claude搭建自媒体工作流/微信图片_2026-03-29_121940_926.jpg",
-    "assets/Pasted image 20260324225212.png",
-    "2026-03 OpenClaw 电商客服/我的飞书已经可以和openclaw 对话了.png",
     "Claude Code 今天上线了“btw”命令.canvas",
     "未命名 1.canvas",
     "OpenClaw 记忆系统深度解析：当 AI 学会 记住你是谁.canvas"

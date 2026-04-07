@@ -2,7 +2,11 @@
   "customOrder": {
     "/": {
       "children": [
-        "看看【相说的作品】责任心强的人如何在草台班子中生存.md",
+        "bilibili-rag：把收藏夹变成可搜索、可追溯的知识库，收藏不再只是存着.md",
+        "磁悬浮控制器扫频畸变原因分析.md",
+        "磁悬浮的位置传感器长时间运行突然信号变差.md",
+        "费曼学习法",
+        "责任心强的人如何在草台班子中生存.md",
         "FFT 原理与应用新手指南.md",
         "卷积在多领域的应用研究.md",
         "泰勒公式展开.md",
@@ -25,7 +29,6 @@
         "嵌入式C语言开发技巧篇 那些你需要知道的宏的巧妙用法.md",
         "2026年第14周 工作周报.txt",
         "2026-04 电机VFD",
-        "#费曼学习法",
         "Obsidian+Claude搭建自媒体工作流",
         "typora 里 [!NOTE]  怎么正确使用？.md",
         "微信图片_2026-03-10_185222_713.jpg",
@@ -228,17 +231,6 @@
         "适配器模式：老板突然要换芯片？教你用 C 语言构建 防弹 级 HAL 层已付费.md",
         "别再写几千行的 Switch Case 了 用 C 语言实现 面向对象 的状态机.md",
         "从识别到表达：写清楚需求的完整方法论.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "#费曼学习法": {
-      "children": [
-        "#费曼学习法/费曼学习法.webp",
-        "#费曼学习法/费曼学习法 × AI = 学任何东西快3倍 (29_03_2026 3：39：28 pm).html",
-        "#费曼学习法/费曼学习教练Agent设计.md",
-        "#费曼学习法/费曼学习教练.md",
-        "#费曼学习法/费曼学习教练 -ENG.md",
-        "#费曼学习法/一条提示词让Claude秒变「私人导师」！全网疯传的费曼学习法，到底有多神？ (26_03_2026 11：34：17 pm).html"
       ],
       "sortOrder": "custom"
     },
@@ -690,6 +682,7 @@
     },
     "AI 赋能嵌入式开发专家": {
       "children": [
+        "AI 赋能嵌入式开发专家/中一条 说明公司已经想裁你了！.md",
         "AI 赋能嵌入式开发专家/这个简单的 Obsidian + NotebookLM + Gemini 学习方法，让效率翻100倍.md",
         "AI 赋能嵌入式开发专家/电机控制学习指南.md",
         "AI 赋能嵌入式开发专家/AI 时代工程师的价值重塑.md",
@@ -716,6 +709,17 @@
     },
     "assets": {
       "children": [
+        "assets/dc85502743b3a373c4d41a98fb59cdf4.jpg",
+        "assets/Pasted image 20260407214056.png",
+        "assets/Pasted image 20260407203538.png",
+        "assets/Pasted image 20260407203435.png",
+        "assets/Pasted image 20260407203326.png",
+        "assets/Pasted image 20260407203136.png",
+        "assets/Pasted image 20260407202757.png",
+        "assets/Pasted image 20260407202603.png",
+        "assets/Pasted image 20260407202016.png",
+        "assets/Pasted image 20260407201933.png",
+        "assets/Pasted image 20260407201831.png",
         "assets/Pasted image 20260405122512.png",
         "assets/Pasted image 20260324225212.png",
         "assets/9f045ebd4b0ac78986020959e9957ec4 1.png",
@@ -13366,6 +13370,17 @@
         "superpowers/tests/subagent-driven-dev/svelte-todo/design.md",
         "superpowers/tests/subagent-driven-dev/svelte-todo/plan.md",
         "superpowers/tests/subagent-driven-dev/svelte-todo/scaffold.sh"
+      ],
+      "sortOrder": "custom"
+    },
+    "费曼学习法": {
+      "children": [
+        "费曼学习法/费曼学习法.webp",
+        "费曼学习法/费曼学习法 × AI = 学任何东西快3倍 (29_03_2026 3：39：28 pm).html",
+        "费曼学习法/费曼学习教练Agent设计.md",
+        "费曼学习法/费曼学习教练.md",
+        "费曼学习法/一条提示词让Claude秒变「私人导师」！全网疯传的费曼学习法，到底有多神？ (26_03_2026 11：34：17 pm).html",
+        "费曼学习法/费曼学习教练 -ENG.md"
       ],
       "sortOrder": "custom"
     }
