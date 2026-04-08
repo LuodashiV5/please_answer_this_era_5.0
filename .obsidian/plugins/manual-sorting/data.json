@@ -2,16 +2,15 @@
   "customOrder": {
     "/": {
       "children": [
+        "2026-04",
+        "未命名.md",
         "bilibili-rag：把收藏夹变成可搜索、可追溯的知识库，收藏不再只是存着.md",
-        "磁悬浮控制器扫频畸变原因分析.md",
-        "磁悬浮的位置传感器长时间运行突然信号变差.md",
         "费曼学习法",
         "责任心强的人如何在草台班子中生存.md",
         "FFT 原理与应用新手指南.md",
         "卷积在多领域的应用研究.md",
         "泰勒公式展开.md",
         "Zephyr OS 学习计划制定.md",
-        "VFD 绕组线圈的电感，是会随着温度变化的？.md",
         "大龄程序员中年失业，告别传统代码，我在大模型新赛道里，找到了中年技术人的出路.md",
         "安全和密码学.md",
         "20个黄金指令：把 NotebookLM 调教成你的顶级数字大脑.md",
@@ -236,6 +235,7 @@
     },
     "2026-03 OpenClaw 电商客服": {
       "children": [
+        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent",
         "2026-03 OpenClaw 电商客服/通用电商客服框架.yml",
         "2026-03 OpenClaw 电商客服/直播推流 Agent（Live Streaming Push Agent）",
         "2026-03 OpenClaw 电商客服/批量创建 agents.txt",
@@ -300,8 +300,8 @@
     "2026-03 OpenClaw 电商客服/商品上架 Listing Agent": {
       "children": [
         "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/上架 Agent.md",
-        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/Listing Agent.md",
-        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/Listing Agent -Agent JSON 配置草案.md"
+        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/Listing Agent -Agent JSON 配置草案.md",
+        "2026-03 OpenClaw 电商客服/商品上架 Listing Agent/Listing Agent.md"
       ],
       "sortOrder": "custom"
     },
@@ -717,9 +717,6 @@
         "assets/Pasted image 20260407203136.png",
         "assets/Pasted image 20260407202757.png",
         "assets/Pasted image 20260407202603.png",
-        "assets/Pasted image 20260407202016.png",
-        "assets/Pasted image 20260407201933.png",
-        "assets/Pasted image 20260407201831.png",
         "assets/Pasted image 20260405122512.png",
         "assets/Pasted image 20260324225212.png",
         "assets/9f045ebd4b0ac78986020959e9957ec4 1.png",
@@ -13383,9 +13380,13 @@
         "费曼学习法/费曼学习教练 -ENG.md"
       ],
       "sortOrder": "custom"
+    },
+    "2026-04": {
+      "children": [],
+      "sortOrder": "custom"
     }
   },
-  "sortOrder": "byCreatedTime",
+  "sortOrder": "byModifiedTime",
   "debugMode": false,
   "newItemPlacement": "top"
 }
