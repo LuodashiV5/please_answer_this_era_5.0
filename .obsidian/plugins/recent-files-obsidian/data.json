@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "bilibili-rag：把收藏夹变成可搜索、可追溯的知识库，收藏不再只是存着",
       "path": "bilibili-rag：把收藏夹变成可搜索、可追溯的知识库，收藏不再只是存着.md"
     },
@@ -55,6 +56,10 @@
     {
       "basename": "一人公司 × AI：这是普通程序员弯道超车的最后机会 —— AI 时代你必须做的 20 件事",
       "path": "一人公司 × AI：这是普通程序员弯道超车的最后机会 —— AI 时代你必须做的 20 件事.md"
+=======
+      "basename": "VFD 绕组线圈的电感，是会随着温度变化的？",
+      "path": "VFD 绕组线圈的电感，是会随着温度变化的？.md"
+>>>>>>> b264f2cbf28179efda83a70ecdb9abad6a46cfc7
     },
     {
       "basename": "AI帮忙读论文——深度解析paper skill",
